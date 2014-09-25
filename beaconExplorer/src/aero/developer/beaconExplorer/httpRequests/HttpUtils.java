@@ -15,7 +15,11 @@ import org.apache.http.params.BasicHttpParams;
 import org.apache.http.params.HttpParams;
 import org.apache.http.params.HttpProtocolParams;
 import org.apache.http.protocol.HTTP;
-
+/**
+ * Used to enable https connection for HttpClient Objects
+ * 
+ * @author Shafic Hariri
+ */
 public class HttpUtils {
 	public static HttpClient getNewHttpClient() {
 		try {
