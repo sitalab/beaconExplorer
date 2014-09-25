@@ -16,6 +16,17 @@ The first API is called on app startup. The second API is called when the user c
 
 FAQ
 ===
+- Can I get access to the iBeacons deployed at airports
+  - Currently access is still limted to airlines, airports and ground handlers. The plan is to open access to general 3rd parties in the future. 
+
+- How do I build the project
+  - To build the project, check out the code and import the .project into Eclipse. It is assumed that you have Android SDK with [Google Glass GDK](https://developers.google.com/glass/) already installed.  
+
+
+Contributors
+============
+* [ahariss](https://github.com/ahariss) 
+* [kosullivansita](https://github.com/kosullivansita) / [Kevin O'Sullivan](http://www.sita.aero/surveys-reports/sita-lab)
 
 License
 =======
