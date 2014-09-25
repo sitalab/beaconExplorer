@@ -1,0 +1,656 @@
+package aero.developer.beacons.beaconglass.utils;
+
+import java.io.BufferedReader;
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.List;
+import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import aero.developer.beacons.beaconglass.R;
+import aero.developer.beacons.beaconglass.database.DatabaseOps;
+import aero.developer.beacons.beaconglass.objects.ATIBeacon;
+import aero.developer.beacons.beaconglass.objects.AirPort;
+import aero.developer.beacons.beaconglass.objects.Airline;
+import aero.developer.beacons.beaconglass.objects.User;
+import aero.developer.beacons.beaconglass.parsers.AirlineParser;
+import aero.developer.beacons.beaconglass.parsers.AirportsParser;
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.Canvas;
+import android.graphics.RectF;
+import android.location.Location;
+import android.location.LocationManager;
+import android.os.Build;
+import android.os.Bundle;
+import android.util.Base64;
+import android.view.inputmethod.InputMethodManager;
+import android.widget.EditText;
+
+public class Helpers {
+
+	public static final String timeZoneFormat = "yyyy-MM-dd'T'HH:mm:ss.SSSZ";
+	private static final int SECOND = 1000;
+	private static final int MINUTE = 60 * SECOND;
+	private static final int HOUR = 60 * MINUTE;
+
+	// public static final String displayFormat = "yyyy-MM-dd'T'HH:mm:ss.SSS";
+	public Helpers() {
+	}
+
+	/**
+	 * function to add User into database [current loaded user]
+	 * 
+	 * @param context
+	 * @param user
+	 *            Object of type {@link User}
+	 * 
+	 * */
+
+	public static void AddUser(Context context, User user) {
+		DatabaseOps ops = new DatabaseOps(context);
+		ops.InsertIntoDb("Cache_Table", "t_CacheObject_Name", "User",
+				"b_CacheObjectByte_Value", Serializer.serializeObject(user));
+	}
+
+	public static void deleteUser(Context context) {
+		DatabaseOps ops = new DatabaseOps(context);
+		ops.DeleteObjectFromDb("Cache_Table", "t_CacheObject_Name", "'User'");
+
+	}
+	
+	/**
+	 * function to save the nearest airport retrieved from splash by coordinates
+	 * @param context
+	 * @param airport 
+	 *  
+	 * */
+	
+	
+	public static void Save_nearestAirport(Context context, AirPort airport) {
+		DatabaseOps ops = new DatabaseOps(context);
+		ops.InsertIntoDb("Cache_Table", "t_CacheObject_Name", "nearestAirport",
+				"b_CacheObjectByte_Value", Serializer.serializeObject(airport));
+	}
+	
+	
+	
+	public static void delete_nearestAirport(Context context) {
+		DatabaseOps ops = new DatabaseOps(context);
+		ops.DeleteObjectFromDb("Cache_Table", "t_CacheObject_Name", "'nearestAirport'");
+
+	}
+	
+	
+	/**
+	 * function to get saved nearest airport from the database.
+	 * @param context
+	 * @return {@link AirPort}
+	 * */
+
+	public static AirPort get_nearestAirport(Context context) {
+
+		DatabaseOps ops = new DatabaseOps(context);
+		byte[] b = ops.getObjectFromDb("Cache_Table",
+				"b_CacheObjectByte_Value", "t_CacheObject_Name", "nearestAirport");
+		AirPort airport = (AirPort) Serializer.deserializeObject(b);
+
+		return airport;
+
+	}
+	
+	
+	/**
+	 * function to save the registered beacons
+	 * @param context
+	 * @param beacons
+	 *              list of beacons 
+	 *  
+	 * */
+	
+	
+	public static void Save_beacons(Context context, List<ATIBeacon> beacons) {
+		DatabaseOps ops = new DatabaseOps(context);
+		ops.InsertIntoDb("Cache_Table", "t_CacheObject_Name", "beacons",
+				"b_CacheObjectByte_Value", Serializer.serializeObject(beacons));
+	}
+	
+	/**
+	 * function to delete the registered beacons
+	 * @param context
+	 *  
+	 * */
+	
+	public static void delete_beacons(Context context) {
+		DatabaseOps ops = new DatabaseOps(context);
+		ops.DeleteObjectFromDb("Cache_Table", "t_CacheObject_Name", "'beacons'");
+
+	}
+	
+	
+	public static List<ATIBeacon> get_beacons(Context context) {
+
+		DatabaseOps ops = new DatabaseOps(context);
+		byte[] b = ops.getObjectFromDb("Cache_Table",
+				"b_CacheObjectByte_Value", "t_CacheObject_Name", "beacons");
+		List<ATIBeacon> beacons = (List<ATIBeacon>) Serializer.deserializeObject(b);
+
+		return beacons;
+
+	}
+	
+	
+	/**
+	 * function to get stored user card in the database[current loaded user]
+	 * 
+	 * @param context
+	 * 
+	 * @return {@link User}
+	 * 
+	 *         Object of type{@link User}
+	 * 
+	 * */
+
+	public static User getUser(Context context) {
+
+		DatabaseOps ops = new DatabaseOps(context);
+		byte[] b = ops.getObjectFromDb("Cache_Table",
+				"b_CacheObjectByte_Value", "t_CacheObject_Name", "User");
+		User user = (User) Serializer.deserializeObject(b);
+
+		return user;
+
+	}
+
+	/**
+	 * function to decode image file and convert it to bitmap
+	 * 
+	 * @param file
+	 * @param REQUIRED_SIZE
+	 *            required size needed the bitmap to be in.
+	 * @return Bitmap decoded
+	 * */
+
+	public static Bitmap decodeFile(File file, int REQUIRED_SIZE) {
+		try {
+			// Decode image size
+			BitmapFactory.Options o = new BitmapFactory.Options();
+			o.inJustDecodeBounds = true;
+			BitmapFactory.decodeStream(new FileInputStream(file), null, o);
+
+			// Find the correct scale value. It should be the power of 2.
+			int scale = 1;
+			while (o.outWidth / scale / 2 >= REQUIRED_SIZE
+					&& o.outHeight / scale / 2 >= REQUIRED_SIZE)
+				scale *= 2;
+
+			// Decode with inSampleSize
+			BitmapFactory.Options o2 = new BitmapFactory.Options();
+			o2.inSampleSize = scale;
+			return BitmapFactory.decodeStream(new FileInputStream(file), null,
+					o2);
+		} catch (FileNotFoundException e) {
+		}
+		return null;
+	}
+
+	/**
+	 * function to scale a bitmap and crop it related into center
+	 * 
+	 * @param source
+	 * @param newHeight
+	 * @param newWidth
+	 * 
+	 * @return bitmap scaled center cropped.
+	 * */
+	public static Bitmap scaleCenterCrop(Bitmap source, int newHeight,
+			int newWidth) {
+		int sourceWidth = source.getWidth();
+		int sourceHeight = source.getHeight();
+
+		// Compute the scaling factors to fit the new height and width,
+		// respectively.
+		// To cover the final image, the final scaling will be the bigger
+		// of these two.
+		float xScale = (float) newWidth / sourceWidth;
+		float yScale = (float) newHeight / sourceHeight;
+		float scale = Math.max(xScale, yScale);
+
+		// Now get the size of the source bitmap when scaled
+		float scaledWidth = scale * sourceWidth;
+		float scaledHeight = scale * sourceHeight;
+
+		// Let's find out the upper left coordinates if the scaled bitmap
+		// should be centered in the new size give by the parameters
+		float left = (newWidth - scaledWidth) / 2;
+		float top = (newHeight - scaledHeight) / 2;
+
+		// The target rectangle for the new, scaled version of the source bitmap
+		// will now
+		// be
+		RectF targetRect = new RectF(left, top, left + scaledWidth, top
+				+ scaledHeight);
+
+		// Finally, we create a new bitmap of the specified size and draw our
+		// new,
+		// scaled bitmap onto it.
+		Bitmap dest = Bitmap.createBitmap(newWidth, newHeight,
+				source.getConfig());
+		Canvas canvas = new Canvas(dest);
+		canvas.drawBitmap(source, null, targetRect, null);
+
+		return dest;
+	}
+
+	public static String GetTranslation(Context context, String Field) {
+		if (Field.trim().length() > 0)
+			return context.getString(get_resID(context, Field));
+		return context.getString(get_resID(context, "None"));
+	}
+
+	public static int get_resID(Context context, String Field) {
+		String packageName = context.getPackageName();
+		return context.getResources().getIdentifier(Field, "string",
+				packageName);
+
+	}
+
+	public static void closeKEyboard(Activity context) {
+		final EditText text = new EditText(context);
+		text.requestFocus();
+		try {
+			final InputMethodManager imm = (InputMethodManager) context
+					.getSystemService(Context.INPUT_METHOD_SERVICE);
+
+			imm.hideSoftInputFromWindow(text.getWindowToken(), 0);
+			// fragment.getFragmentManager().popBackStack();
+		} catch (Exception e) {
+
+		}
+
+	}
+
+	/**
+	 * 
+	 * function to search String array for a String
+	 * 
+	 * @param StringList
+	 * @param test
+	 * 
+	 * @return position found compared to test String
+	 * */
+
+	public static int findString(List<String> StringList, String test) {
+		if (test == null)
+			return 0;
+		int index = 0;
+		for (String d : StringList) {
+			if (d.toUpperCase() != null
+					&& d.toLowerCase().contains(test.toLowerCase()))
+				return index;
+			index++;
+		}
+
+		return 0;
+
+	}
+
+	public static String encodeTobase64(Bitmap image) {
+		Bitmap immagex = image;
+		ByteArrayOutputStream baos = new ByteArrayOutputStream();
+		immagex.compress(Bitmap.CompressFormat.JPEG, 100, baos);
+		byte[] b = baos.toByteArray();
+		String imageEncoded = Base64.encodeToString(b, Base64.DEFAULT);
+
+		return imageEncoded;
+	}
+
+	public static Bitmap decodeBase64(String input) {
+		byte[] decodedByte = Base64.decode(input, 0);
+		return BitmapFactory
+				.decodeByteArray(decodedByte, 0, decodedByte.length);
+	}
+
+	/**
+	 * Difference in days between dates.
+	 * <p>
+	 * Where d2 > d1
+	 * 
+	 * @param d1
+	 *            Must have "MM/yyyy" format
+	 * @param d2
+	 *            Must have "MM/yyyy" format
+	 * 
+	 * @return days - (-1 incase of error)
+	 */
+	public static int getTimeDiff_InDays(String date) {
+
+		Date d1 = getDate(date, timeZoneFormat);
+		Long diff = (long) 0;
+		if (d1 != null) {
+			Long tsLong = System.currentTimeMillis();
+
+			diff = tsLong - d1.getTime();
+
+		}
+
+		return (int) (diff / HOUR);
+	}
+
+	public static Date getDate(String d, String format) {
+		String errorMessage = "";
+		if (d != null && d.length() > 0 && !d.equalsIgnoreCase("null")) {
+			if (d.contains("Z") && format.equalsIgnoreCase(timeZoneFormat)) {
+				d = d.replace("Z", "");
+				d += "+00:00";
+
+			} else if (d.matches(".*\\+\\d\\d\\:\\d\\d")) {
+				String temp = d.substring(d.indexOf("+"), d.length());
+				if (temp.contains(":")) {
+					temp = temp.replace(":", "");
+				}
+				d = d.substring(0, d.indexOf("+")) + temp;
+			}
+		}
+		// }
+		SimpleDateFormat sdf = new SimpleDateFormat(format);
+		Date retDate = null;
+
+		try {
+			retDate = sdf.parse(d);
+
+		} catch (ParseException e) {
+			errorMessage += "the date you provided is in an invalid date"
+					+ " format.";
+			// Functions.println("@Functions#getDate(S,S): " + errorMessage);
+			// Log.e("Functions", "getDate: " + e.getMessage());
+			// Log.e("Functions", "date: " + d);
+			// Log.e("Functions", "format: " + format);
+			return retDate;
+		} catch (NullPointerException e) {
+			// retDate = new Date();
+			return retDate;
+		}
+
+		return retDate;
+	}
+
+	public static Bundle generateBundle(String url) {
+		Bundle b = new Bundle();
+		if (url != null) {
+			String[] params = url.split("[&,?]");
+			for (String param : params) {
+				try {
+					String name = param.split("=")[0];
+					String value = param.split("=")[1];
+					b.putString(name, value);
+				} catch (Exception e) {
+				}
+			}
+		}
+		return b;
+
+	}
+
+	public static boolean isValidemail(String email) {
+		String expression = "^[\\w\\.-]+@([\\w\\-]+\\.)+[A-Z]{2,4}$";
+		CharSequence inputStr = email;
+		Pattern pattern = Pattern.compile(expression, Pattern.CASE_INSENSITIVE);
+		Matcher matcher = pattern.matcher(inputStr);
+		if (matcher.matches()) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+//	public static void ManageHistory(Context context, HistoryItem item) {
+//		DatabaseOps ops = new DatabaseOps(context);
+//		HashMap<String, HistoryItem> items = getHistory(context);
+//		if (items == null)
+//			items = new HashMap<String, HistoryItem>();
+//		String key = "";
+//		if (item.getItemType() == ItemType.BAG) {
+//			key = item.getItemType().name() + item.getBagTag() + item.getDate();
+//		} else {
+//
+//		}
+//		items.put(key, item);
+//		ops.InsertIntoDb("Cache_Table", "t_CacheObject_Name", "HistoryItems",
+//				"b_CacheObjectByte_Value", Serializer.serializeObject(items));
+//	}
+
+//	public static HashMap<String, HistoryItem> getHistory(Context context) {
+//
+//		DatabaseOps ops = new DatabaseOps(context);
+//		byte[] b = ops
+//				.getObjectFromDb("Cache_Table", "b_CacheObjectByte_Value",
+//						"t_CacheObject_Name", "HistoryItems");
+//		HashMap<String, HistoryItem> items = (HashMap<String, HistoryItem>) Serializer
+//				.deserializeObject(b);
+//
+//		if (items == null)
+//			items = new HashMap<String, HistoryItem>();
+//		return items;
+//
+//	}
+
+	/**
+	 * function to fetch list of airlines from a file
+	 * 
+	 * @param context
+	 *            activity or fragment context
+	 * @return list of airlines
+	 * 
+	 * */
+	public static List<Airline> getAirlinesList(Context context) {
+		AirlineParser airlineParser = new AirlineParser();
+		InputStream inputStream = context.getResources().openRawResource(
+				R.raw.airlinecodes);
+
+		airlineParser.parse(inputStream);
+		List<Airline> countries = airlineParser.getList();
+		return countries;
+	}
+
+	public static Airline getAirline(List<Airline> airlines, String AirlineCode) {
+		for (int i = 0; i < airlines.size(); i++) {
+			Airline item = airlines.get(i);
+			if (item.getCode().equalsIgnoreCase(AirlineCode))
+				return item;
+		}
+
+		return null;
+
+	}
+
+	public static void ShowMsgDialog(final Activity activity,
+			final Runnable callback, final String msg, final boolean isConfirm) {
+
+		activity.runOnUiThread(new Runnable() {
+
+			@Override
+			public void run() {
+				
+				AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
+						activity);
+		 
+					// set title
+					alertDialogBuilder.setTitle(activity.getString(R.string.app_name));
+					alertDialogBuilder.setIcon(R.drawable.ic_launcher);
+		 
+					// set dialog message
+					alertDialogBuilder
+						.setMessage(msg)
+						.setCancelable(false);
+					
+					if(isConfirm){
+						alertDialogBuilder.setPositiveButton("Yes",new DialogInterface.OnClickListener() {
+							public void onClick(DialogInterface dialog,int id) {
+								if (callback != null)
+									activity.runOnUiThread(callback);
+								dialog.dismiss();
+							}
+						  });
+					}
+						
+					
+					String canceltext="";
+					if (isConfirm) {
+						canceltext=	activity.getString(R.string.cancel);
+					} else {
+						canceltext=	activity.getString(R.string.dismiss);
+					}
+					alertDialogBuilder.setNegativeButton(canceltext,new DialogInterface.OnClickListener() {
+						public void onClick(DialogInterface dialog,int id) {
+							dialog.cancel();
+						}
+					});
+	 
+					// create alert dialog
+					AlertDialog alertDialog = alertDialogBuilder.create();
+	 
+					// show it
+					alertDialog.show();
+				}
+				
+				/*// custom dialog
+
+				Button dialogButton = (Button) dialog.findViewById(R.id.action);
+				// if button is clicked, close the custom dialog
+				dialogButton.setOnClickListener(new OnClickListener() {
+					@Override
+					public void onClick(View v) {
+						if (callback != null)
+							activity.runOnUiThread(callback);
+						dialog.dismiss();
+
+					}
+				});
+				
+				if (isConfirm) {
+					dialogButton.setVisibility(View.VISIBLE);
+					cancel.setText(activity.getString(R.string.cancel));
+				} else {
+					dialogButton.setVisibility(View.GONE);
+					cancel.setText(activity.getString(R.string.dismiss));
+				}
+
+				dialog.show();
+			}*/
+		});
+
+	}
+
+	public static void addAirports(Context context) {
+		DatabaseOps ops = new DatabaseOps(context);
+		Map<String, AirPort> items = getAirports(context);
+		items = null;
+		if (items == null) {
+			AirportsParser parser = new AirportsParser();
+			InputStream inputStream = context.getResources().openRawResource(
+					R.raw.airports);
+
+			parser.parse(inputStream);
+			Map<String, AirPort> airports = parser.getList();
+
+			ops.InsertIntoDb("Cache_Table", "t_CacheObject_Name", "Airports",
+					"b_CacheObjectByte_Value",
+					Serializer.serializeObject(airports));
+
+		}
+	}
+
+	public static Map<String, AirPort> getAirports(Context context) {
+
+		DatabaseOps ops = new DatabaseOps(context);
+		byte[] b = ops.getObjectFromDb("Cache_Table",
+				"b_CacheObjectByte_Value", "t_CacheObject_Name", "Airports");
+		Map<String, AirPort> airports = (Map<String, AirPort>) Serializer
+				.deserializeObject(b);
+
+		return airports;
+	}
+
+	public static String iStream_to_String(InputStream is1) {
+		BufferedReader rd = new BufferedReader(new InputStreamReader(is1), 4096);
+		String line;
+		StringBuilder sb = new StringBuilder();
+		try {
+			while ((line = rd.readLine()) != null) {
+				sb.append(line);
+			}
+			rd.close();
+
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		String contentOfMyInputStream = sb.toString();
+		return contentOfMyInputStream;
+	}
+	
+	
+	/**
+	 * Get Last Known Location
+	 * 
+	 * @param ctx
+	 *            Context, can not be null
+	 * @return Location Object or null if could not get last Known Location
+	 */
+	public static Location getLocation(Context ctx) {
+		LocationManager lm = (LocationManager) ctx
+				.getSystemService(Context.LOCATION_SERVICE);
+		List<String> providers = lm.getProviders(true);
+
+		/*
+		 * Loop over the array backwards, and if you get an accurate location,
+		 * then break out the loop
+		 */
+		Location l = null;
+
+		for (int i = providers.size() - 1; i >= 0; i--) {
+			l = lm.getLastKnownLocation(providers.get(i));
+			if (l != null)
+				break;
+		}
+		return l;
+	}
+
+	public static String getDeviceName() {
+		  String manufacturer = Build.MANUFACTURER;
+		  String model = Build.MODEL;
+		  if (model.startsWith(manufacturer)) {
+		    return capitalize(model);
+		  } else {
+		    return capitalize(manufacturer) + " " + model;
+		  }
+		}
+
+
+	private static String capitalize(String s) {
+		  if (s == null || s.length() == 0) {
+		    return "";
+		  }
+		  char first = s.charAt(0);
+		  if (Character.isUpperCase(first)) {
+		    return s;
+		  } else {
+		    return Character.toUpperCase(first) + s.substring(1);
+		  }
+		} 	
+
+}

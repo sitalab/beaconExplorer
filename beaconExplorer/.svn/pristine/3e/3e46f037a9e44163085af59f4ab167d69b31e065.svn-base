@@ -1,0 +1,287 @@
+package aero.developer.beacons.beaconglass;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.UUID;
+import java.util.Map.Entry;
+
+import org.joda.time.LocalDate;
+
+import aero.developer.beacons.beaconglass.objects.ATIBeacon;
+import aero.developer.beacons.beaconglass.objects.ATIDevice;
+import aero.developer.beacons.beaconglass.objects.EntryItem;
+import aero.developer.beacons.beaconglass.objects.Item;
+import aero.developer.beacons.beaconglass.objects.SectionItem;
+import aero.developer.beacons.beaconglass.objects.User;
+import aero.developer.beacons.beaconglass.tasks.GetMetaDataTask;
+import aero.developer.beacons.beaconglass.utils.Helpers;
+import aero.developer.beacons.beaconglass.utils.sharedPrefEditor;
+import android.app.Activity;
+import android.bluetooth.BluetoothAdapter;
+import android.bluetooth.BluetoothDevice;
+import android.bluetooth.BluetoothManager;
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.os.Handler;
+import android.provider.Settings.Secure;
+import android.widget.Button;
+import android.widget.TextView;
+import android.widget.Toast;
+
+public class MainActivity extends Activity {
+
+	private ArrayList<ATIDevice> allDevices = new ArrayList<ATIDevice>();
+	private ArrayList<Item> near = new ArrayList<Item>();
+	private ArrayList<Item> far = new ArrayList<Item>();
+	private ArrayList<Item> unknown = new ArrayList<Item>();
+	private ArrayList<Item> items = new ArrayList<Item>();
+	private Map<String, ATIBeacon> beacons;
+	private EntryItem LastBeacon = null;
+	private TextView msgView;
+
+	/*
+	 * bluetooth variables
+	 */
+	private BluetoothAdapter mBluetoothAdapter;
+	private boolean mScanning;
+	private Handler mHandler;
+	private Runnable populate;
+	private Runnable scanafter;
+
+	private static final int REQUEST_ENABLE_BT = 1;
+	// Stops scanning after 10 seconds.
+	private static final long SCAN_PERIOD = 5000;
+	private Activity activity;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		setContentView(R.layout.main);
+
+		mHandler = new Handler();
+
+		activity = this;
+		msgView = (TextView) findViewById(R.id.msgView);
+		final BluetoothManager bluetoothManager = (BluetoothManager) activity
+				.getSystemService(Context.BLUETOOTH_SERVICE);
+		mBluetoothAdapter = bluetoothManager.getAdapter();
+
+		// Checks if Bluetooth is supported on the device.
+		if (mBluetoothAdapter == null) {
+			Toast.makeText(activity, R.string.error_bluetooth_not_supported,
+					Toast.LENGTH_SHORT).show();
+			activity.finish();
+			return;
+		}
+
+		List<ATIBeacon> beaconslist = Helpers.get_beacons(activity);
+		beacons = new HashMap<String, ATIBeacon>();
+		for (ATIBeacon i : beaconslist)
+			beacons.put(i.getMacAddress(), i);
+
+		super.onCreate(savedInstanceState);
+	}
+
+	@Override
+	protected void onResume() {
+		if (!mBluetoothAdapter.isEnabled()) {
+			if (!mBluetoothAdapter.isEnabled()) {
+				Intent enableBtIntent = new Intent(
+						BluetoothAdapter.ACTION_REQUEST_ENABLE);
+				startActivityForResult(enableBtIntent, REQUEST_ENABLE_BT);
+			}
+		}
+		scanLeDevice(true);
+
+		super.onResume();
+	}
+
+	@Override
+	public void onPause() {
+		scanLeDevice(false);
+		mHandler.removeCallbacks(scanafter);
+		mHandler.removeCallbacks(populate);
+		super.onPause();
+
+	}
+
+	@Override
+	public void onActivityResult(int requestCode, int resultCode, Intent data) {
+		// User chose not to enable Bluetooth.
+		if (requestCode == REQUEST_ENABLE_BT
+				&& resultCode == Activity.RESULT_CANCELED) {
+			this.finish();
+			return;
+		}
+		super.onActivityResult(requestCode, resultCode, data);
+	}
+
+	private void scanLeDevice(final boolean enable) {
+		if (enable) {
+			allDevices.clear();
+			scanafter = new Runnable() {
+				@Override
+				public void run() {
+					scanLeDevice(true);
+				}
+			};
+			populate = new Runnable() {
+				@Override
+				public void run() {
+
+					items.clear();
+					near.clear();
+					far.clear();
+					unknown.clear();
+					mScanning = false;
+					mBluetoothAdapter.stopLeScan(mLeScanCallback);
+					List<ATIBeacon> beaconslist = Helpers.get_beacons(activity);
+					beacons = new HashMap<String, ATIBeacon>();
+					for (ATIBeacon i : beaconslist)
+						beacons.put(i.getMacAddress(), i);
+
+					Map<String, ATIDevice> map = new HashMap<String, ATIDevice>();
+					for (ATIDevice ays : allDevices) {
+						map.put(ays.getDevice().getAddress(), ays);
+					}
+					allDevices.clear();
+					allDevices.addAll(map.values());
+					Collections.sort(allDevices);
+					if (allDevices.size() > 0) {
+
+						for (int i = 0; i < allDevices.size(); i++) {
+							String MacAddres = allDevices.get(i).getDevice()
+									.getAddress();
+							if (beacons.containsKey(MacAddres)) {
+								near.add(new EntryItem(beacons.get(MacAddres),
+										allDevices.get(i).getRssi(), allDevices
+												.get(i).getDevice(), true));
+							} else {
+								unknown.add(new EntryItem(beacons
+										.get(MacAddres), allDevices.get(i)
+										.getRssi(), allDevices.get(i)
+										.getDevice(), false));
+							}
+							beacons.remove(MacAddres);
+						}
+
+						// checking 1st near
+
+						for (Entry<String, ATIBeacon> entry : beacons
+								.entrySet()) {
+							far.add(new EntryItem(entry.getValue(), 0, null,
+									false));
+						}
+						if (near.size() > 0) {
+							EntryItem nearstitem = (EntryItem) near.get(0);
+							if (nearstitem != null) {
+								CheckifLastChanged(nearstitem);
+							}
+							items.add(nearstitem);
+							beacons.remove(nearstitem.item.getMacAddress());
+							near.remove(0);
+
+						}
+						if (near.size() > 0) {
+							items.addAll(near);
+						}
+						if (far.size() > 0) {
+							items.addAll(far);
+						}
+						if (unknown.size() > 0) {
+							items.addAll(unknown);
+						}
+					}
+					// Managing adapter;
+
+					mHandler.postDelayed(scanafter, SCAN_PERIOD);
+
+				}
+			};
+			mHandler.postDelayed(populate, 1000);
+
+			mScanning = true;
+			mBluetoothAdapter.startLeScan(mLeScanCallback);
+		} else {
+			mScanning = false;
+			mBluetoothAdapter.stopLeScan(mLeScanCallback);
+		}
+	}
+
+	// Device scan callback.
+	private BluetoothAdapter.LeScanCallback mLeScanCallback = new BluetoothAdapter.LeScanCallback() {
+
+		@Override
+		public void onLeScan(final BluetoothDevice device, final int rssi,
+				final byte[] scanRecord) {
+			activity.runOnUiThread(new Runnable() {
+				@Override
+				public void run() {
+					UUID.nameUUIDFromBytes(scanRecord);
+
+					allDevices.add(new ATIDevice(device, rssi));
+				}
+			});
+		}
+	};
+
+	private void CheckifLastChanged(EntryItem newNear) {
+		sharedPrefEditor sharedpref = new sharedPrefEditor(activity);
+		boolean CanNotify = sharedpref.getBoolean("notificationBeacon");
+
+		if (newNear != null && newNear.item != null) {
+			User user = Helpers.getUser(activity);
+			String flight = "";
+			String paxId = "";
+
+			if (user != null) {
+				flight = user.getAirline() + user.getFlight();
+				paxId = user.getFirstName() + " " + user.getLastName();
+			} else {
+				flight = "XS0001";
+				paxId = "Google Glass Test";
+			}
+			if (LastBeacon == null || LastBeacon.item == null) {
+				if (CanNotify) {
+
+					ATIBeacon atiBeacon = newNear.item;
+
+					float rssi = (float) newNear.rssi;
+					String deviceIdentifier = Secure.getString(
+							activity.getContentResolver(), Secure.ANDROID_ID);
+
+					GetMetaDataTask getmeta = new GetMetaDataTask(activity,
+							atiBeacon, flight, new LocalDate(), paxId, rssi,
+							deviceIdentifier, msgView);
+					getmeta.execute();
+				}
+				LastBeacon = newNear;
+			} else if (!newNear.item.getMacAddress().equals(
+					LastBeacon.item.getMacAddress())) {
+				if (CanNotify) {
+					ATIBeacon atiBeacon = newNear.item;
+					float rssi = (float) newNear.rssi;
+					String deviceIdentifier = Secure.getString(
+							activity.getContentResolver(), Secure.ANDROID_ID);
+
+					GetMetaDataTask getmeta = new GetMetaDataTask(activity,
+							atiBeacon, flight, new LocalDate(), paxId, rssi,
+							deviceIdentifier, msgView);
+					getmeta.execute();
+				}
+				LastBeacon = newNear;
+			}
+		}
+	}
+
+	public static ArrayList<Item> cloneList(List<Item> list) {
+		ArrayList<Item> clone = new ArrayList<Item>(list.size());
+		for (Item item : list)
+			clone.add(item);
+		return clone;
+	}
+}

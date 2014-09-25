@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BeaconGlass</string>
+    <string name="action_settings">Settings</string>
+    <string name="Beacon">Track Beacons</string>
+    <string name="TrackingBeacon">Tracking Beacons&#8230;</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="cancel">Cancel</string>
+    <string name="loading_beacon">Loading Beacons&#8230;</string>
+    <string name="noDescriptive" formatted="false">I\'m the %s beacon at %s and I don\'t have descriptive text.</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    
+
+</resources>

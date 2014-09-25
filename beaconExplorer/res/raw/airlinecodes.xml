@@ -1,0 +1,5709 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Airlines>
+
+    <Airline
+        Code="1T"
+        Name="1Time Airline"
+        platenumber="" />
+    <Airline
+        Code="Q5"
+        Name="40-Mile Air"
+        platenumber="" />
+    <Airline
+        Code="AN"
+        Name="Ansett Australia"
+        platenumber="" />
+    <Airline
+        Code="1B"
+        Name="Abacus International"
+        platenumber="" />
+    <Airline
+        Code="W9"
+        Name="Abelag Aviation"
+        platenumber="" />
+    <Airline
+        Code="ZI"
+        Name="Aigle Azur"
+        platenumber="439" />
+    <Airline
+        Code="AQ"
+        Name="Aloha Airlines"
+        platenumber="327" />
+    <Airline
+        Code="AA"
+        Name="American Airlines"
+        platenumber="001" />
+    <Airline
+        Code="OZ"
+        Name="Asiana Airlines"
+        platenumber="988" />
+    <Airline
+        Code="4K"
+        Name="Askari Aviation"
+        platenumber="652" />
+    <Airline
+        Code="8U"
+        Name="Afriqiyah Airways"
+        platenumber="" />
+    <Airline
+        Code="Q9"
+        Name="Afrinat International Airlines"
+        platenumber="" />
+    <Airline
+        Code="G4"
+        Name="Allegiant Air"
+        platenumber="" />
+    <Airline
+        Code="K5"
+        Name="Aban Air"
+        platenumber="" />
+    <Airline
+        Code="M3"
+        Name="ABSA - Aerolinhas Brasileiras"
+        platenumber="" />
+    <Airline
+        Code="04"
+        Name="Antrak Air"
+        platenumber="" />
+    <Airline
+        Code="GB"
+        Name="Airborne Express"
+        platenumber="832" />
+    <Airline
+        Code="GB"
+        Name="ABX Air"
+        platenumber="832" />
+    <Airline
+        Code="8V"
+        Name="Astral Aviation"
+        platenumber="" />
+    <Airline
+        Code="E4"
+        Name="Aero Asia International"
+        platenumber="" />
+    <Airline
+        Code="YT"
+        Name="Air Togo"
+        platenumber="674" />
+    <Airline
+        Code="4G"
+        Name="Advance Leasing Company"
+        platenumber="" />
+    <Airline
+        Code="7A"
+        Name="Aztec Worldwide Airlines"
+        platenumber="" />
+    <Airline
+        Code="8T"
+        Name="Air Tindi"
+        platenumber="" />
+    <Airline
+        Code="ZY"
+        Name="Ada Air"
+        platenumber="121" />
+    <Airline
+        Code="Z7"
+        Name="ADC Airlines"
+        platenumber="" />
+    <Airline
+        Code="JP"
+        Name="Adria Airways"
+        platenumber="165" />
+    <Airline
+        Code="UX"
+        Name="Air Europa"
+        platenumber="" />
+    <Airline
+        Code="EM"
+        Name="Aero Benin"
+        platenumber="464" />
+    <Airline
+        Code="A3"
+        Name="Aegean Airlines"
+        platenumber="" />
+    <Airline
+        Code="KI"
+        Name="Air Atlantique"
+        platenumber="" />
+    <Airline
+        Code="PE"
+        Name="Air Europe"
+        platenumber="" />
+    <Airline
+        Code="KO"
+        Name="Alaska Central Express"
+        platenumber="" />
+    <Airline
+        Code="5W"
+        Name="Astraeus"
+        platenumber="529" />
+    <Airline
+        Code="VV"
+        Name="Aerosvit Airlines"
+        platenumber="" />
+    <Airline
+        Code="I9"
+        Name="Air Italy"
+        platenumber="" />
+    <Airline
+        Code="WK"
+        Name="American Falcon"
+        platenumber="" />
+    <Airline
+        Code="QQ"
+        Name="Alliance Airlines"
+        platenumber="446" />
+    <Airline
+        Code="FG"
+        Name="Ariana Afghan Airlines"
+        platenumber="255" />
+    <Airline
+        Code="SU"
+        Name="Aeroflot Russian Airlines"
+        platenumber="555" />
+    <Airline
+        Code="JA"
+        Name="Air Bosna"
+        platenumber="" />
+    <Airline
+        Code="AF"
+        Name="Air France"
+        platenumber="057" />
+    <Airline
+        Code="SB"
+        Name="Air Caledonie International"
+        platenumber="063" />
+    <Airline
+        Code="GN"
+        Name="Air Gabon"
+        platenumber="185" />
+    <Airline
+        Code="2O"
+        Name="Air Salone"
+        platenumber="" />
+    <Airline
+        Code="2Q"
+        Name="Air Cargo Carriers"
+        platenumber="" />
+    <Airline
+        Code="V7"
+        Name="Air Senegal International"
+        platenumber="" />
+    <Airline
+        Code="SW"
+        Name="Air Namibia"
+        platenumber="186" />
+    <Airline
+        Code="G8"
+        Name="Air Service Gabon"
+        platenumber="" />
+    <Airline
+        Code="5D"
+        Name="Aerolitoral"
+        platenumber="" />
+    <Airline
+        Code="1A"
+        Name="Amadeus Global Travel Distribution"
+        platenumber="" />
+    <Airline
+        Code="7T"
+        Name="Air Glaciers"
+        platenumber="" />
+    <Airline
+        Code="PL"
+        Name="Aeroper"
+        platenumber="210" />
+    <Airline
+        Code="8A"
+        Name="Atlas Blue"
+        platenumber="" />
+    <Airline
+        Code="GD"
+        Name="Air Alpha Greenland"
+        platenumber="838" />
+    <Airline
+        Code="LD"
+        Name="Air Hong Kong"
+        platenumber="177" />
+    <Airline
+        Code="HT"
+        Name="Aeromist-Kharkiv"
+        platenumber="095" />
+    <Airline
+        Code="J2"
+        Name="Azerbaijan Airlines"
+        platenumber="" />
+    <Airline
+        Code="U3"
+        Name="Avies"
+        platenumber="" />
+    <Airline
+        Code="AP"
+        Name="Airbus Industrie"
+        platenumber="" />
+    <Airline
+        Code="5A"
+        Name="Alpine Air Express"
+        platenumber="511" />
+    <Airline
+        Code="ED"
+        Name="Airblue"
+        platenumber="215" />
+    <Airline
+        Code="AB"
+        Name="Air Berlin"
+        platenumber="745" />
+    <Airline
+        Code="AG"
+        Name="Air Contractors"
+        platenumber="967" />
+    <Airline
+        Code="AI"
+        Name="Air India Limited"
+        platenumber="098" />
+    <Airline
+        Code="ZB"
+        Name="Air Bourbon"
+        platenumber="974" />
+    <Airline
+        Code="CC"
+        Name="Air Atlanta Icelandic"
+        platenumber="222" />
+    <Airline
+        Code="RB"
+        Name="Air Srpska"
+        platenumber="070" />
+    <Airline
+        Code="TN"
+        Name="Air Tahiti Nui"
+        platenumber="102" />
+    <Airline
+        Code="W4"
+        Name="Aero Services Executive"
+        platenumber="" />
+    <Airline
+        Code="IZ"
+        Name="Arkia Israel Airlines"
+        platenumber="238" />
+    <Airline
+        Code="JM"
+        Name="Air Jamaica"
+        platenumber="" />
+    <Airline
+        Code="AP"
+        Name="Air One"
+        platenumber="" />
+    <Airline
+        Code="S2"
+        Name="Air Sahara"
+        platenumber="" />
+    <Airline
+        Code="KM"
+        Name="Air Malta"
+        platenumber="643" />
+    <Airline
+        Code="M6"
+        Name="Amerijet International"
+        platenumber="" />
+    <Airline
+        Code="NQ"
+        Name="Air Japan"
+        platenumber="" />
+    <Airline
+        Code="4A"
+        Name="Air Kiribati"
+        platenumber="" />
+    <Airline
+        Code="EH"
+        Name="Air Nippon Network Co. Ltd."
+        platenumber="156" />
+    <Airline
+        Code="HP"
+        Name="America West Airlines"
+        platenumber="401" />
+    <Airline
+        Code="ZW"
+        Name="Air Wisconsin"
+        platenumber="303" />
+    <Airline
+        Code="U9"
+        Name="Tatarstan Airlines"
+        platenumber="" />
+    <Airline
+        Code="VD"
+        Name="Air Libert"
+        platenumber="718" />
+    <Airline
+        Code="TT"
+        Name="Air Lithuania"
+        platenumber="720" />
+    <Airline
+        Code="QM"
+        Name="Air Malawi"
+        platenumber="167" />
+    <Airline
+        Code="BM"
+        Name="Air Sicilia"
+        platenumber="" />
+    <Airline
+        Code="NX"
+        Name="Air Macau"
+        platenumber="151" />
+    <Airline
+        Code="ZV"
+        Name="Air Midwest"
+        platenumber="471" />
+    <Airline
+        Code="HM"
+        Name="Air Seychelles"
+        platenumber="061" />
+    <Airline
+        Code="AM"
+        Name="AeroMéxico"
+        platenumber="139" />
+    <Airline
+        Code="NH"
+        Name="All Nippon Airways"
+        platenumber="205" />
+    <Airline
+        Code="YW"
+        Name="Air Nostrum"
+        platenumber="454" />
+    <Airline
+        Code="PX"
+        Name="Air Niugini"
+        platenumber="656" />
+    <Airline
+        Code="G9"
+        Name="Air Arabia"
+        platenumber="" />
+    <Airline
+        Code="AC"
+        Name="Air Canada"
+        platenumber="014" />
+    <Airline
+        Code="BT"
+        Name="Air Baltic"
+        platenumber="" />
+    <Airline
+        Code="EL"
+        Name="Air Nippon"
+        platenumber="" />
+    <Airline
+        Code="TL"
+        Name="Airnorth"
+        platenumber="270" />
+    <Airline
+        Code="4N"
+        Name="Air North Charter - Canada"
+        platenumber="287" />
+    <Airline
+        Code="IW"
+        Name="AOM French Airlines"
+        platenumber="646" />
+    <Airline
+        Code="NZ"
+        Name="Air New Zealand"
+        platenumber="086" />
+    <Airline
+        Code="J6"
+        Name="AVCOM"
+        platenumber="" />
+    <Airline
+        Code="2D"
+        Name="Aero VIP"
+        platenumber="551" />
+    <Airline
+        Code="6V"
+        Name="Air Vegas"
+        platenumber="" />
+    <Airline
+        Code="XM"
+        Name="Alitalia Express"
+        platenumber="" />
+    <Airline
+        Code="OE"
+        Name="Asia Overnight Express"
+        platenumber="460" />
+    <Airline
+        Code="GV"
+        Name="Aero Flight"
+        platenumber="447" />
+    <Airline
+        Code="JW"
+        Name="Arrow Air"
+        platenumber="404" />
+    <Airline
+        Code="W3"
+        Name="Arik Air"
+        platenumber="" />
+    <Airline
+        Code="2B"
+        Name="Aerocondor"
+        platenumber="817" />
+    <Airline
+        Code="4C"
+        Name="Aires"
+        platenumber="" />
+    <Airline
+        Code="AR"
+        Name="Aerolineas Argentinas"
+        platenumber="044" />
+    <Airline
+        Code="QN"
+        Name="Air Armenia"
+        platenumber="676" />
+    <Airline
+        Code="AS"
+        Name="Alaska Airlines"
+        platenumber="027" />
+    <Airline
+        Code="4D"
+        Name="Air Sinai"
+        platenumber="903" />
+    <Airline
+        Code="PL"
+        Name="Airstars"
+        platenumber="210" />
+    <Airline
+        Code="EV"
+        Name="Atlantic Southeast Airlines"
+        platenumber="862" />
+    <Airline
+        Code="OB"
+        Name="Astrakhan Airlines"
+        platenumber="" />
+    <Airline
+        Code="TC"
+        Name="Air Tanzania"
+        platenumber="197" />
+    <Airline
+        Code="2J"
+        Name="Air Burkina"
+        platenumber="" />
+    <Airline
+        Code="HC"
+        Name="Aero-Tropics Air Services"
+        platenumber="" />
+    <Airline
+        Code="FO"
+        Name="Airlines Of Tasmania"
+        platenumber="" />
+    <Airline
+        Code="PJ"
+        Name="Air Saint Pierre"
+        platenumber="638" />
+    <Airline
+        Code="8C"
+        Name="Air Transport International"
+        platenumber="" />
+    <Airline
+        Code="OS"
+        Name="Austrian Airlines"
+        platenumber="257" />
+    <Airline
+        Code="IQ"
+        Name="Augsburg Airways"
+        platenumber="614" />
+    <Airline
+        Code="RU"
+        Name="AirBridge Cargo"
+        platenumber="" />
+    <Airline
+        Code="MO"
+        Name="Abu Dhabi Amiri Flight"
+        platenumber="622" />
+    <Airline
+        Code="5N"
+        Name="Aeroflot-Nord"
+        platenumber="497" />
+    <Airline
+        Code="GR"
+        Name="Aurigny Air Services"
+        platenumber="924" />
+    <Airline
+        Code="NO"
+        Name="Aus-Air"
+        platenumber="" />
+    <Airline
+        Code="AU"
+        Name="Austral Lineas Aereas"
+        platenumber="143" />
+    <Airline
+        Code="AO"
+        Name="Australian Airlines"
+        platenumber="110" />
+    <Airline
+        Code="AV"
+        Name="Avianca - Aerovias Nacionales de Colombia"
+        platenumber="134" />
+    <Airline
+        Code="NF"
+        Name="Air Vanuatu"
+        platenumber="218" />
+    <Airline
+        Code="K8"
+        Name="Airlink Zambia"
+        platenumber="" />
+    <Airline
+        Code="B9"
+        Name="Air Bangladesh"
+        platenumber="" />
+    <Airline
+        Code="DR"
+        Name="Air Mediterranee"
+        platenumber="244" />
+    <Airline
+        Code="7E"
+        Name="Aeroline GmbH"
+        platenumber="" />
+    <Airline
+        Code="6G"
+        Name="Air Wales"
+        platenumber="" />
+    <Airline
+        Code="TX"
+        Name="Air Caraïbes"
+        platenumber="208" />
+    <Airline
+        Code="IX"
+        Name="Air India Express"
+        platenumber="972" />
+    <Airline
+        Code="HJ"
+        Name="Asian Express Airlines"
+        platenumber="" />
+    <Airline
+        Code="XT"
+        Name="Air Exel"
+        platenumber="987" />
+    <Airline
+        Code="AK"
+        Name="AirAsia"
+        platenumber="" />
+    <Airline
+        Code="6V"
+        Name="Axis Airways"
+        platenumber="" />
+    <Airline
+        Code="3G"
+        Name="Atlant-Soyuz Airlines"
+        platenumber="" />
+    <Airline
+        Code="AZ"
+        Name="Alitalia"
+        platenumber="055" />
+    <Airline
+        Code="ZE"
+        Name="Arcus-Air Logistic"
+        platenumber="" />
+    <Airline
+        Code="Z8"
+        Name="Amaszonas"
+        platenumber="" />
+    <Airline
+        Code="UM"
+        Name="Air Zimbabwe"
+        platenumber="168" />
+    <Airline
+        Code="R7"
+        Name="Aserca Airlines"
+        platenumber="" />
+    <Airline
+        Code="FV"
+        Name="Rossiya-Russian Airlines"
+        platenumber="728" />
+    <Airline
+        Code="RX"
+        Name="Aviaexpress"
+        platenumber="" />
+    <Airline
+        Code="MQ"
+        Name="American Eagle Airlines"
+        platenumber="" />
+    <Airline
+        Code="FF"
+        Name="Airshop"
+        platenumber="" />
+    <Airline
+        Code="ML"
+        Name="African Transport Trading and Investment Company"
+        platenumber="557" />
+    <Airline
+        Code="VU"
+        Name="Air Ivoire"
+        platenumber="084" />
+    <Airline
+        Code="BP"
+        Name="Air Botswana"
+        platenumber="636" />
+    <Airline
+        Code="GS"
+        Name="Air Foyle"
+        platenumber="" />
+    <Airline
+        Code="VT"
+        Name="Air Tahiti"
+        platenumber="135" />
+    <Airline
+        Code="3N"
+        Name="Air Urga"
+        platenumber="" />
+    <Airline
+        Code="VL"
+        Name="Air VIA"
+        platenumber="" />
+    <Airline
+        Code="FK"
+        Name="Africa West"
+        platenumber="580" />
+    <Airline
+        Code="G2"
+        Name="Avirex"
+        platenumber="" />
+    <Airline
+        Code="V8"
+        Name="ATRAN Cargo Airlines"
+        platenumber="" />
+    <Airline
+        Code="VE"
+        Name="Avensa"
+        platenumber="128" />
+    <Airline
+        Code="V5"
+        Name="Avolar Aerolineas"
+        platenumber="" />
+    <Airline
+        Code="CA"
+        Name="Air China"
+        platenumber="999" />
+    <Airline
+        Code="Q6"
+        Name="Aero Condor Peru"
+        platenumber="" />
+    <Airline
+        Code="5F"
+        Name="Arctic Circle Air Service"
+        platenumber="" />
+    <Airline
+        Code="QC"
+        Name="Air Corridor"
+        platenumber="207" />
+    <Airline
+        Code="NV"
+        Name="Air Central"
+        platenumber="668" />
+    <Airline
+        Code="CV"
+        Name="Air Chathams"
+        platenumber="172" />
+    <Airline
+        Code="CW"
+        Name="Air Marshall Islands"
+        platenumber="778" />
+    <Airline
+        Code="ZA"
+        Name="Access Air"
+        platenumber="708" />
+    <Airline
+        Code="AH"
+        Name="Air Algerie"
+        platenumber="124" />
+    <Airline
+        Code="KI"
+        Name="Adam Air"
+        platenumber="" />
+    <Airline
+        Code="ER"
+        Name="Astar Air Cargo"
+        platenumber="423" />
+    <Airline
+        Code="HO"
+        Name="Antinea Airlines"
+        platenumber="372" />
+    <Airline
+        Code="EN"
+        Name="Air Dolomiti"
+        platenumber="" />
+    <Airline
+        Code="D9"
+        Name="Aeroflot-Don"
+        platenumber="" />
+    <Airline
+        Code="NM"
+        Name="Air Madrid"
+        platenumber="445" />
+    <Airline
+        Code="EE"
+        Name="Aero Airlines"
+        platenumber="770" />
+    <Airline
+        Code="4F"
+        Name="Air City"
+        platenumber="233" />
+    <Airline
+        Code="EI"
+        Name="Aer Lingus"
+        platenumber="053" />
+    <Airline
+        Code="E8"
+        Name="Alpi Eagles"
+        platenumber="" />
+    <Airline
+        Code="KY"
+        Name="Air S"
+        platenumber="914" />
+    <Airline
+        Code="PC"
+        Name="Air Fiji"
+        platenumber="677" />
+    <Airline
+        Code="OF"
+        Name="Air Finland"
+        platenumber="620" />
+    <Airline
+        Code="FJ"
+        Name="Air Pacific"
+        platenumber="260" />
+    <Airline
+        Code="RC"
+        Name="Atlantic Airways"
+        platenumber="767" />
+    <Airline
+        Code="QH"
+        Name="Air Florida"
+        platenumber="" />
+    <Airline
+        Code="NY"
+        Name="Air Iceland"
+        platenumber="" />
+    <Airline
+        Code="2P"
+        Name="Air Philippines"
+        platenumber="094" />
+    <Airline
+        Code="ZX"
+        Name="Air Georgian"
+        platenumber="742" />
+    <Airline
+        Code="2U"
+        Name="Air Guinee Express"
+        platenumber="" />
+    <Airline
+        Code="0A"
+        Name="Amber Air"
+        platenumber="" />
+    <Airline
+        Code="DA"
+        Name="Air Georgia"
+        platenumber="062" />
+    <Airline
+        Code="GL"
+        Name="Air Greenland"
+        platenumber="631" />
+    <Airline
+        Code="LL"
+        Name="Allegro"
+        platenumber="" />
+    <Airline
+        Code="5Y"
+        Name="Atlas Air"
+        platenumber="" />
+    <Airline
+        Code="GG"
+        Name="Air Guyane"
+        platenumber="" />
+    <Airline
+        Code="H9"
+        Name="Air D&apos;Ayiti"
+        platenumber="" />
+    <Airline
+        Code="GG"
+        Name="Air Comores International"
+        platenumber="" />
+    <Airline
+        Code="8C"
+        Name="Air Horizon"
+        platenumber="" />
+    <Airline
+        Code="W9"
+        Name="Air Bagan"
+        platenumber="" />
+    <Airline
+        Code="IP"
+        Name="Atyrau Air Ways"
+        platenumber="" />
+    <Airline
+        Code="QK"
+        Name="Air Canada Jazz"
+        platenumber="983" />
+    <Airline
+        Code="KK"
+        Name="Atlasjet"
+        platenumber="" />
+    <Airline
+        Code="JS"
+        Name="Air Koryo"
+        platenumber="120" />
+    <Airline
+        Code="KC"
+        Name="Air Astana"
+        platenumber="465" />
+    <Airline
+        Code="LV"
+        Name="Albanian Airlines"
+        platenumber="046" />
+    <Airline
+        Code="D4"
+        Name="Alidaunia"
+        platenumber="" />
+    <Airline
+        Code="CD"
+        Name="Alliance Air"
+        platenumber="" />
+    <Airline
+        Code="XL"
+        Name="Aerolane"
+        platenumber="" />
+    <Airline
+        Code="A6"
+        Name="Air Alps Aviation"
+        platenumber="" />
+    <Airline
+        Code="TD"
+        Name="Atlantis European Airways"
+        platenumber="" />
+    <Airline
+        Code="L8"
+        Name="Air Luxor GB"
+        platenumber="" />
+    <Airline
+        Code="LK"
+        Name="Air Luxor"
+        platenumber="" />
+    <Airline
+        Code="MK"
+        Name="Air Mauritius"
+        platenumber="239" />
+    <Airline
+        Code="MD"
+        Name="Air Madagascar"
+        platenumber="258" />
+    <Airline
+        Code="9U"
+        Name="Air Moldova"
+        platenumber="598" />
+    <Airline
+        Code="M0"
+        Name="Aero Mongolia"
+        platenumber="" />
+    <Airline
+        Code="A7"
+        Name="Air Plus Comet"
+        platenumber="" />
+    <Airline
+        Code="QO"
+        Name="Aeromexpress"
+        platenumber="473" />
+    <Airline
+        Code="MR"
+        Name="Air Mauritanie"
+        platenumber="174" />
+    <Airline
+        Code="3S"
+        Name="Aeroland Airways"
+        platenumber="" />
+    <Airline
+        Code="8D"
+        Name="Astair"
+        platenumber="506" />
+    <Airline
+        Code="F4"
+        Name="Albarka Air"
+        platenumber="" />
+    <Airline
+        Code="AJ"
+        Name="Aero Contractors"
+        platenumber="" />
+    <Airline
+        Code="8Y"
+        Name="Air Burundi"
+        platenumber="" />
+    <Airline
+        Code="OT"
+        Name="Aeropelican Air Services"
+        platenumber="" />
+    <Airline
+        Code="AD"
+        Name="Air Paradise International"
+        platenumber="504" />
+    <Airline
+        Code="QD"
+        Name="Air Class Lineas Aereas"
+        platenumber="475" />
+    <Airline
+        Code="QS"
+        Name="African Safari Airways"
+        platenumber="904" />
+    <Airline
+        Code="4Y"
+        Name="Airbus France"
+        platenumber="476" />
+    <Airline
+        Code="MC"
+        Name="Air Mobility Command"
+        platenumber="" />
+    <Airline
+        Code="RE"
+        Name="Aer Arann"
+        platenumber="684" />
+    <Airline
+        Code="UU"
+        Name="Air Austral"
+        platenumber="760" />
+    <Airline
+        Code="6K"
+        Name="Asian Spirit"
+        platenumber="" />
+    <Airline
+        Code="RK"
+        Name="Air Afrique"
+        platenumber="092" />
+    <Airline
+        Code="A5"
+        Name="Airlinair"
+        platenumber="" />
+    <Airline
+        Code="QL"
+        Name="Aero Lanka"
+        platenumber="721" />
+    <Airline
+        Code="MV"
+        Name="Armenian International Airways"
+        platenumber="181" />
+    <Airline
+        Code="20"
+        Name="Air Salone"
+        platenumber="" />
+    <Airline
+        Code="U8"
+        Name="Armavia"
+        platenumber="" />
+    <Airline
+        Code="BQ"
+        Name="Aeromar"
+        platenumber="926" />
+    <Airline
+        Code="P5"
+        Name="AeroRep"
+        platenumber="" />
+    <Airline
+        Code="BF"
+        Name="Aero-Service"
+        platenumber="478" />
+    <Airline
+        Code="5L"
+        Name="Aerosur"
+        platenumber="" />
+    <Airline
+        Code="EX"
+        Name="Air Santo Domingo"
+        platenumber="" />
+    <Airline
+        Code="JR"
+        Name="Aero California"
+        platenumber="078" />
+    <Airline
+        Code="Z3"
+        Name="Avient Aviation"
+        platenumber="" />
+    <Airline
+        Code="M3"
+        Name="Air Service"
+        platenumber="" />
+    <Airline
+        Code="GM"
+        Name="Air Slovakia"
+        platenumber="805" />
+    <Airline
+        Code="R3"
+        Name="Aircompany Yakutia"
+        platenumber="" />
+    <Airline
+        Code="VW"
+        Name="Aeromar"
+        platenumber="942" />
+    <Airline
+        Code="JY"
+        Name="Air Turks and Caicos"
+        platenumber="267" />
+    <Airline
+        Code="OR"
+        Name="Arkefly"
+        platenumber="687" />
+    <Airline
+        Code="CG"
+        Name="Airlines PNG"
+        platenumber="" />
+    <Airline
+        Code="TY"
+        Name="Air Cal"
+        platenumber="190" />
+    <Airline
+        Code="FL"
+        Name="AirTran Airways"
+        platenumber="" />
+    <Airline
+        Code="TS"
+        Name="Air Transat"
+        platenumber="649" />
+    <Airline
+        Code="EC"
+        Name="Avialeasing Aviation Company"
+        platenumber="452" />
+    <Airline
+        Code="VO"
+        Name="Austrian Arrows"
+        platenumber="734" />
+    <Airline
+        Code="DW"
+        Name="Aero-Charter Ukraine"
+        platenumber="683" />
+    <Airline
+        Code="6U"
+        Name="Air Ukraine"
+        platenumber="" />
+    <Airline
+        Code="2K"
+        Name="Aerolineas Galapagos (Aerogal)"
+        platenumber="352" />
+    <Airline
+        Code="6R"
+        Name="Alrosa Mirny Air Enterprise"
+        platenumber="552" />
+    <Airline
+        Code="8Q"
+        Name="Baker Aviation"
+        platenumber="" />
+    <Airline
+        Code="BA"
+        Name="British Airways"
+        platenumber="125" />
+    <Airline
+        Code="BG"
+        Name="Biman Bangladesh Airlines"
+        platenumber="997" />
+    <Airline
+        Code="BF"
+        Name="Bluebird Cargo"
+        platenumber="478" />
+    <Airline
+        Code="B4"
+        Name="BACH Flugbetriebsges"
+        platenumber="" />
+    <Airline
+        Code="BZ"
+        Name="Blue Dart Aviation"
+        platenumber="" />
+    <Airline
+        Code="JA"
+        Name="B&amp;H Airlines"
+        platenumber="" />
+    <Airline
+        Code="J4"
+        Name="Buffalo Airways"
+        platenumber="" />
+    <Airline
+        Code="A8"
+        Name="Benin Golf Air"
+        platenumber="" />
+    <Airline
+        Code="4T"
+        Name="Belair Airlines"
+        platenumber="" />
+    <Airline
+        Code="UP"
+        Name="Bahamasair"
+        platenumber="111" />
+    <Airline
+        Code="E6"
+        Name="Bringer Air Cargo Taxi Aereo"
+        platenumber="" />
+    <Airline
+        Code="LZ"
+        Name="Balkan Bulgarian Airlines"
+        platenumber="196" />
+    <Airline
+        Code="TH"
+        Name="BA Connect"
+        platenumber="259" />
+    <Airline
+        Code="BS"
+        Name="British International Helicopters"
+        platenumber="595" />
+    <Airline
+        Code="B4"
+        Name="Bankair"
+        platenumber="" />
+    <Airline
+        Code="PG"
+        Name="Bangkok Airways"
+        platenumber="829" />
+    <Airline
+        Code="KF"
+        Name="Blue1"
+        platenumber="" />
+    <Airline
+        Code="JV"
+        Name="Bearskin Lake Air Service"
+        platenumber="632" />
+    <Airline
+        Code="B3"
+        Name="Bellview Airlines"
+        platenumber="" />
+    <Airline
+        Code="BD"
+        Name="bmi"
+        platenumber="236" />
+    <Airline
+        Code="WW"
+        Name="bmibaby"
+        platenumber="626" />
+    <Airline
+        Code="CH"
+        Name="Bemidji Airlines"
+        platenumber="872" />
+    <Airline
+        Code="5Z"
+        Name="Bismillah Airlines"
+        platenumber="" />
+    <Airline
+        Code="BO"
+        Name="Bouraq Indonesia Airlines"
+        platenumber="666" />
+    <Airline
+        Code="BV"
+        Name="Blue Panorama Airlines"
+        platenumber="928" />
+    <Airline
+        Code="7R"
+        Name="BRA-Transportes Aereos"
+        platenumber="594" />
+    <Airline
+        Code="8E"
+        Name="Bering Air"
+        platenumber="" />
+    <Airline
+        Code="B2"
+        Name="Belavia Belarusian Airlines"
+        platenumber="" />
+    <Airline
+        Code="K6"
+        Name="Bravo Air Congo"
+        platenumber="" />
+    <Airline
+        Code="BN"
+        Name="Braniff International Airways"
+        platenumber="922" />
+    <Airline
+        Code="GQ"
+        Name="Big Sky Airlines"
+        platenumber="387" />
+    <Airline
+        Code="V9"
+        Name="BAL Bashkirian Airlines"
+        platenumber="" />
+    <Airline
+        Code="7P"
+        Name="Metro Batavia"
+        platenumber="917" />
+    <Airline
+        Code="J8"
+        Name="Berjaya Air"
+        platenumber="" />
+    <Airline
+        Code="QW"
+        Name="Blue Wings"
+        platenumber="254" />
+    <Airline
+        Code="8W"
+        Name="BAX Global"
+        platenumber="" />
+    <Airline
+        Code="BM"
+        Name="Bayu Indonesia Air"
+        platenumber="" />
+    <Airline
+        Code="DB"
+        Name="Brit Air"
+        platenumber="750" />
+    <Airline
+        Code="E9"
+        Name="Boston-Maine Airways"
+        platenumber="" />
+    <Airline
+        Code="SN"
+        Name="Brussels Airlines"
+        platenumber="082" />
+    <Airline
+        Code="NT"
+        Name="Binter Canarias"
+        platenumber="" />
+    <Airline
+        Code="0B"
+        Name="Blue Air"
+        platenumber="" />
+    <Airline
+        Code="KJ"
+        Name="British Mediterranean Airways"
+        platenumber="" />
+    <Airline
+        Code="FB"
+        Name="Bulgaria Air"
+        platenumber="" />
+    <Airline
+        Code="8N"
+        Name="Barents AirLink"
+        platenumber="" />
+    <Airline
+        Code="5C"
+        Name="CAL Cargo Air Lines"
+        platenumber="355" />
+    <Airline
+        Code="AW"
+        Name="CHC Airways"
+        platenumber="291" />
+    <Airline
+        Code="XG"
+        Name="Calima Aviacion"
+        platenumber="" />
+    <Airline
+        Code="MO"
+        Name="Calm Air"
+        platenumber="622" />
+    <Airline
+        Code="R9"
+        Name="Camai Air"
+        platenumber="" />
+    <Airline
+        Code="UY"
+        Name="Cameroon Airlines"
+        platenumber="604" />
+    <Airline
+        Code="C6"
+        Name="CanJet"
+        platenumber="" />
+    <Airline
+        Code="CP"
+        Name="Canadian Airlines"
+        platenumber="" />
+    <Airline
+        Code="5T"
+        Name="Canadian North"
+        platenumber="661" />
+    <Airline
+        Code="W2"
+        Name="Canadian Western Airlines"
+        platenumber="" />
+    <Airline
+        Code="9K"
+        Name="Cape Air"
+        platenumber="306" />
+    <Airline
+        Code="PT"
+        Name="Capital Cargo International Airlines"
+        platenumber="" />
+    <Airline
+        Code="GG"
+        Name="Cargo 360"
+        platenumber="" />
+    <Airline
+        Code="2G"
+        Name="Cargoitalia"
+        platenumber="" />
+    <Airline
+        Code="W8"
+        Name="Cargojet Airways"
+        platenumber="" />
+    <Airline
+        Code="CV"
+        Name="Cargolux"
+        platenumber="172" />
+    <Airline
+        Code="BW"
+        Name="Caribbean Airlines"
+        platenumber="106" />
+    <Airline
+        Code="8B"
+        Name="Caribbean Star Airlines"
+        platenumber="" />
+    <Airline
+        Code="V3"
+        Name="Carpatair"
+        platenumber="" />
+    <Airline
+        Code="RV"
+        Name="Caspian Airlines"
+        platenumber="338" />
+    <Airline
+        Code="CX"
+        Name="Cathay Pacific"
+        platenumber="160" />
+    <Airline
+        Code="KX"
+        Name="Cayman Airways"
+        platenumber="378" />
+    <Airline
+        Code="5J"
+        Name="Cebu Pacific"
+        platenumber="" />
+    <Airline
+        Code="7N"
+        Name="Centavia"
+        platenumber="268" />
+    <Airline
+        Code="C0"
+        Name="Centralwings"
+        platenumber="" />
+    <Airline
+        Code="J7"
+        Name="Centre-Avia"
+        platenumber="" />
+    <Airline
+        Code="WE"
+        Name="Centurion Air Cargo"
+        platenumber="915" />
+    <Airline
+        Code="OP"
+        Name="Chalk&apos;s Ocean Airways"
+        platenumber="370" />
+    <Airline
+        Code="MG"
+        Name="Champion Air"
+        platenumber="558" />
+    <Airline
+        Code="2Z"
+        Name="Changan Airlines"
+        platenumber="642" />
+    <Airline
+        Code="S8"
+        Name="Chari Aviation Services"
+        platenumber="" />
+    <Airline
+        Code="RP"
+        Name="Chautauqua Airlines"
+        platenumber="544" />
+    <Airline
+        Code="C8"
+        Name="Chicago Express"
+        platenumber="" />
+    <Airline
+        Code="CI"
+        Name="China Airlines"
+        platenumber="297" />
+    <Airline
+        Code="CK"
+        Name="China Cargo Airlines"
+        platenumber="866" />
+    <Airline
+        Code="MU"
+        Name="China Eastern Airlines"
+        platenumber="781" />
+    <Airline
+        Code="CJ"
+        Name="China Northern Airlines"
+        platenumber="782" />
+    <Airline
+        Code="WH"
+        Name="China Northwest Airlines"
+        platenumber="783" />
+    <Airline
+        Code="8Y"
+        Name="China Postal Airlines"
+        platenumber="" />
+    <Airline
+        Code="CZ"
+        Name="China Southern Airlines"
+        platenumber="784" />
+    <Airline
+        Code="HR"
+        Name="China United Airlines"
+        platenumber="" />
+    <Airline
+        Code="XO"
+        Name="China Xinhua Airlines"
+        platenumber="" />
+    <Airline
+        Code="3Q"
+        Name="Yunnan Airlines"
+        platenumber="298" />
+    <Airline
+        Code="X7"
+        Name="Chitaavia"
+        platenumber="" />
+    <Airline
+        Code="A2"
+        Name="Cielos Airlines"
+        platenumber="" />
+    <Airline
+        Code="QI"
+        Name="Cimber Air"
+        platenumber="647" />
+    <Airline
+        Code="C9"
+        Name="Cirrus Airlines"
+        platenumber="" />
+    <Airline
+        Code="CF"
+        Name="City Airline"
+        platenumber="163" />
+    <Airline
+        Code="G3"
+        Name="City Connexion Airlines"
+        platenumber="" />
+    <Airline
+        Code="WX"
+        Name="CityJet"
+        platenumber="187" />
+    <Airline
+        Code="CJ"
+        Name="BA CityFlyer"
+        platenumber="782" />
+    <Airline
+        Code="CT"
+        Name="Civil Air Transport"
+        platenumber="" />
+    <Airline
+        Code="6P"
+        Name="Club Air"
+        platenumber="" />
+    <Airline
+        Code="BX"
+        Name="Coast Air"
+        platenumber="970" />
+    <Airline
+        Code="DQ"
+        Name="Coastal Air"
+        platenumber="457" />
+    <Airline
+        Code="9L"
+        Name="Colgan Air"
+        platenumber="426" />
+    <Airline
+        Code="OH"
+        Name="Comair"
+        platenumber="886" />
+    <Airline
+        Code="MN"
+        Name="Comair"
+        platenumber="161" />
+    <Airline
+        Code="C5"
+        Name="CommutAir"
+        platenumber="" />
+    <Airline
+        Code="KR"
+        Name="Comores Airlines"
+        platenumber="261" />
+    <Airline
+        Code="GJ"
+        Name="Compania Mexicargo"
+        platenumber="980" />
+    <Airline
+        Code="CP"
+        Name="Compass Airlines"
+        platenumber="" />
+    <Airline
+        Code="DE"
+        Name="Condor Flugdienst"
+        platenumber="" />
+    <Airline
+        Code="6A"
+        Name="Consorcio Aviaxsa"
+        platenumber="" />
+    <Airline
+        Code="C3"
+        Name="Contact Air"
+        platenumber="" />
+    <Airline
+        Code="CO"
+        Name="Continental Airlines"
+        platenumber="005" />
+    <Airline
+        Code="PC"
+        Name="Continental Airways"
+        platenumber="677" />
+    <Airline
+        Code="CO"
+        Name="Continental Express"
+        platenumber="005" />
+    <Airline
+        Code="CS"
+        Name="Continental Micronesia"
+        platenumber="777" />
+    <Airline
+        Code="V0"
+        Name="Conviasa"
+        platenumber="" />
+    <Airline
+        Code="CM"
+        Name="Copa Airlines"
+        platenumber="230" />
+    <Airline
+        Code="SS"
+        Name="Corsairfly"
+        platenumber="" />
+    <Airline
+        Code="XK"
+        Name="Corse-Mediterranee"
+        platenumber="146" />
+    <Airline
+        Code="F5"
+        Name="Cosmic Air"
+        platenumber="" />
+    <Airline
+        Code="OU"
+        Name="Croatia Airlines"
+        platenumber="253" />
+    <Airline
+        Code="QE"
+        Name="Crossair Europe"
+        platenumber="067" />
+    <Airline
+        Code="CU"
+        Name="Cubana de Aviación"
+        platenumber="136" />
+    <Airline
+        Code="CY"
+        Name="Cyprus Airways"
+        platenumber="048" />
+    <Airline
+        Code="YK"
+        Name="Cyprus Turkish Airlines"
+        platenumber="056" />
+    <Airline
+        Code="OK"
+        Name="Czech Airlines"
+        platenumber="064" />
+    <Airline
+        Code="WD"
+        Name="DAS Air Cargo"
+        platenumber="851" />
+    <Airline
+        Code="DX"
+        Name="DAT Danish Air Transport"
+        platenumber="609" />
+    <Airline
+        Code="ES"
+        Name="DHL International"
+        platenumber="" />
+    <Airline
+        Code="L3"
+        Name="DHL de Guatemala"
+        platenumber="" />
+    <Airline
+        Code="D3"
+        Name="Daallo Airlines"
+        platenumber="" />
+    <Airline
+        Code="N2"
+        Name="Dagestan Airlines"
+        platenumber="" />
+    <Airline
+        Code="H8"
+        Name="Dalavia"
+        platenumber="" />
+    <Airline
+        Code="0D"
+        Name="Darwin Airline"
+        platenumber="" />
+    <Airline
+        Code="D5"
+        Name="Dauair"
+        platenumber="" />
+    <Airline
+        Code="DL"
+        Name="Delta Air Lines"
+        platenumber="006" />
+    <Airline
+        Code="2A"
+        Name="Deutsche Bahn"
+        platenumber="" />
+    <Airline
+        Code="1I"
+        Name="Deutsche Rettungsflugwacht"
+        platenumber="" />
+    <Airline
+        Code="D7"
+        Name="Dinar"
+        platenumber="" />
+    <Airline
+        Code="AW"
+        Name="Dirgantara Air Service"
+        platenumber="291" />
+    <Airline
+        Code="DH"
+        Name="Discovery Airways"
+        platenumber="438" />
+    <Airline
+        Code="D8"
+        Name="Djibouti Airlines"
+        platenumber="" />
+    <Airline
+        Code="DO"
+        Name="Dominicana de Aviaci"
+        platenumber="113" />
+    <Airline
+        Code="E3"
+        Name="Domodedovo Airlines"
+        platenumber="" />
+    <Airline
+        Code="5D"
+        Name="DonbassAero"
+        platenumber="" />
+    <Airline
+        Code="KA"
+        Name="Dragonair"
+        platenumber="043" />
+    <Airline
+        Code="KB"
+        Name="Druk Air"
+        platenumber="787" />
+    <Airline
+        Code="DI"
+        Name="dba"
+        platenumber="944" />
+    <Airline
+        Code="1C"
+        Name="Electronic Data Systems"
+        platenumber="" />
+    <Airline
+        Code="VE"
+        Name="EUjet"
+        platenumber="128" />
+    <Airline
+        Code="BR"
+        Name="EVA Air"
+        platenumber="" />
+    <Airline
+        Code="H7"
+        Name="Eagle Air"
+        platenumber="" />
+    <Airline
+        Code="QU"
+        Name="East African"
+        platenumber="673" />
+    <Airline
+        Code="S9"
+        Name="East African Safari Air"
+        platenumber="" />
+    <Airline
+        Code="T3"
+        Name="Eastern Airways"
+        platenumber="" />
+    <Airline
+        Code="DK"
+        Name="Eastland Air"
+        platenumber="" />
+    <Airline
+        Code="W9"
+        Name="Eastwind Airlines"
+        platenumber="" />
+    <Airline
+        Code="WK"
+        Name="Edelweiss Air"
+        platenumber="" />
+    <Airline
+        Code="MS"
+        Name="Egyptair"
+        platenumber="077" />
+    <Airline
+        Code="LY"
+        Name="El Al Israel Airlines"
+        platenumber="114" />
+    <Airline
+        Code="UZ"
+        Name="El-Buraq Air Transport"
+        platenumber="" />
+    <Airline
+        Code="EK"
+        Name="Emirates"
+        platenumber="176" />
+    <Airline
+        Code="EM"
+        Name="Empire Airlines"
+        platenumber="464" />
+    <Airline
+        Code="EU"
+        Name="Empresa Ecuatoriana De Aviacion"
+        platenumber="341" />
+    <Airline
+        Code="G8"
+        Name="Enkor JSC"
+        platenumber="" />
+    <Airline
+        Code="E0"
+        Name="Eos Airlines"
+        platenumber="" />
+    <Airline
+        Code="B8"
+        Name="Eritrean Airlines"
+        platenumber="" />
+    <Airline
+        Code="E7"
+        Name="Estafeta Carga Aerea"
+        platenumber="" />
+    <Airline
+        Code="OV"
+        Name="Estonian Air"
+        platenumber="" />
+    <Airline
+        Code="ET"
+        Name="Ethiopian Airlines"
+        platenumber="071" />
+    <Airline
+        Code="EY"
+        Name="Etihad Airways"
+        platenumber="607" />
+    <Airline
+        Code="RZ"
+        Name="Euro Exec Express"
+        platenumber="" />
+    <Airline
+        Code="MM"
+        Name="EuroAtlantic Airways"
+        platenumber="334" />
+    <Airline
+        Code="UI"
+        Name="Eurocypria Airlines"
+        platenumber="" />
+    <Airline
+        Code="GJ"
+        Name="Eurofly Service"
+        platenumber="980" />
+    <Airline
+        Code="K2"
+        Name="Eurolot"
+        platenumber="" />
+    <Airline
+        Code="3W"
+        Name="Euromanx Airways"
+        platenumber="" />
+    <Airline
+        Code="EA"
+        Name="European Air Express"
+        platenumber="" />
+    <Airline
+        Code="QY"
+        Name="European Air Transport"
+        platenumber="" />
+    <Airline
+        Code="E7"
+        Name="European Aviation Air Charter"
+        platenumber="" />
+    <Airline
+        Code="EW"
+        Name="Eurowings"
+        platenumber="088" />
+    <Airline
+        Code="EZ"
+        Name="Evergreen International Airlines"
+        platenumber="" />
+    <Airline
+        Code="JN"
+        Name="Excel Airways"
+        platenumber="" />
+    <Airline
+        Code="MB"
+        Name="Execair Aviation"
+        platenumber="" />
+    <Airline
+        Code="OW"
+        Name="Executive Airlines"
+        platenumber="" />
+    <Airline
+        Code="8D"
+        Name="Expo Aviation"
+        platenumber="506" />
+    <Airline
+        Code="EO"
+        Name="Express One International"
+        platenumber="650" />
+    <Airline
+        Code="XE"
+        Name="ExpressJet"
+        platenumber="301" />
+    <Airline
+        Code="U2"
+        Name="easyJet"
+        platenumber="" />
+    <Airline
+        Code="IH"
+        Name="Falcon Aviation"
+        platenumber="759" />
+    <Airline
+        Code="EF"
+        Name="Far Eastern Air Transport"
+        platenumber="265" />
+    <Airline
+        Code="F6"
+        Name="Faroejet"
+        platenumber="" />
+    <Airline
+        Code="F3"
+        Name="Faso Airways"
+        platenumber="" />
+    <Airline
+        Code="FX"
+        Name="Federal Express"
+        platenumber="569" />
+    <Airline
+        Code="N8"
+        Name="Fika Salaama Airlines"
+        platenumber="" />
+    <Airline
+        Code="4S"
+        Name="Finalair Congo"
+        platenumber="575" />
+    <Airline
+        Code="AY"
+        Name="Finnair"
+        platenumber="105" />
+    <Airline
+        Code="FC"
+        Name="Finncomm Airlines"
+        platenumber="" />
+    <Airline
+        Code="FY"
+        Name="Firefly"
+        platenumber="" />
+    <Airline
+        Code="7F"
+        Name="First Air"
+        platenumber="245" />
+    <Airline
+        Code="DP"
+        Name="First Choice Airways"
+        platenumber="" />
+    <Airline
+        Code="8F"
+        Name="Fischer Air"
+        platenumber="442" />
+    <Airline
+        Code="B5"
+        Name="Flightline"
+        platenumber="" />
+    <Airline
+        Code="PA"
+        Name="Florida Coastal Airlines"
+        platenumber="" />
+    <Airline
+        Code="RF"
+        Name="Florida West International Airways"
+        platenumber="" />
+    <Airline
+        Code="F2"
+        Name="Fly Air"
+        platenumber="" />
+    <Airline
+        Code="SH"
+        Name="Fly Me Sweden"
+        platenumber="274" />
+    <Airline
+        Code="D7"
+        Name="AirAsia X"
+        platenumber="" />
+    <Airline
+        Code="TE"
+        Name="FlyLal"
+        platenumber="" />
+    <Airline
+        Code="LF"
+        Name="FlyNordic"
+        platenumber="247" />
+    <Airline
+        Code="F7"
+        Name="Flybaboo"
+        platenumber="" />
+    <Airline
+        Code="BE"
+        Name="Flybe"
+        platenumber="409" />
+    <Airline
+        Code="B4"
+        Name="Flyglobespan"
+        platenumber="" />
+    <Airline
+        Code="VY"
+        Name="Formosa Airlines"
+        platenumber="" />
+    <Airline
+        Code="BN"
+        Name="Forward Air International Airlines"
+        platenumber="922" />
+    <Airline
+        Code="HK"
+        Name="Four Star Aviation / Four Star Cargo"
+        platenumber="" />
+    <Airline
+        Code="FP"
+        Name="Freedom Air"
+        platenumber="" />
+    <Airline
+        Code="F9"
+        Name="Frontier Airlines"
+        platenumber="" />
+    <Airline
+        Code="2F"
+        Name="Frontier Flying Service"
+        platenumber="517" />
+    <Airline
+        Code="FH"
+        Name="Futura International Airways"
+        platenumber="" />
+    <Airline
+        Code="GT"
+        Name="GB Airways"
+        platenumber="171" />
+    <Airline
+        Code="7O"
+        Name="Galaxy Air"
+        platenumber="" />
+    <Airline
+        Code="1G"
+        Name="Galileo International"
+        platenumber="" />
+    <Airline
+        Code="GC"
+        Name="Gambia International Airlines"
+        platenumber="246" />
+    <Airline
+        Code="G7"
+        Name="Gandalf Airlines"
+        platenumber="" />
+    <Airline
+        Code="GA"
+        Name="Garuda Indonesia"
+        platenumber="126" />
+    <Airline
+        Code="4G"
+        Name="Gazpromavia"
+        platenumber="" />
+    <Airline
+        Code="GR"
+        Name="Gemini Air Cargo"
+        platenumber="924" />
+    <Airline
+        Code="A9"
+        Name="Georgian Airways"
+        platenumber="" />
+    <Airline
+        Code="QB"
+        Name="Georgian National Airlines"
+        platenumber="968" />
+    <Airline
+        Code="ST"
+        Name="Germania"
+        platenumber="" />
+    <Airline
+        Code="4U"
+        Name="Germanwings"
+        platenumber="" />
+    <Airline
+        Code="GP"
+        Name="Gestair"
+        platenumber="625" />
+    <Airline
+        Code="G0"
+        Name="Ghana International Airlines"
+        platenumber="" />
+    <Airline
+        Code="G8"
+        Name="Go Air"
+        platenumber="" />
+    <Airline
+        Code="GK"
+        Name="Go One Airways"
+        platenumber="097" />
+    <Airline
+        Code="G7"
+        Name="GoJet Airlines"
+        platenumber="" />
+    <Airline
+        Code="G3"
+        Name="Gol Transportes Aéreos"
+        platenumber="" />
+    <Airline
+        Code="DC"
+        Name="Golden Air"
+        platenumber="" />
+    <Airline
+        Code="G1"
+        Name="Gorkha Airlines"
+        platenumber="" />
+    <Airline
+        Code="GS"
+        Name="Grant Aviation"
+        platenumber="" />
+    <Airline
+        Code="ZK"
+        Name="Great Lakes Airlines"
+        platenumber="846" />
+    <Airline
+        Code="IJ"
+        Name="Great Wall Airlines"
+        platenumber="936" />
+    <Airline
+        Code="TA"
+        Name="Grupo TACA"
+        platenumber="202" />
+    <Airline
+        Code="G6"
+        Name="Guine Bissaur Airlines"
+        platenumber="" />
+    <Airline
+        Code="J9"
+        Name="Guinee Airlines"
+        platenumber="" />
+    <Airline
+        Code="G8"
+        Name="Gujarat Airways"
+        platenumber="" />
+    <Airline
+        Code="GF"
+        Name="Gulf Air Bahrain"
+        platenumber="072" />
+    <Airline
+        Code="GY"
+        Name="Guyana Airways 2000"
+        platenumber="206" />
+    <Airline
+        Code="H6"
+        Name="Hageland Aviation Services"
+        platenumber="" />
+    <Airline
+        Code="HR"
+        Name="Hahn Air"
+        platenumber="" />
+    <Airline
+        Code="HU"
+        Name="Hainan Airlines"
+        platenumber="" />
+    <Airline
+        Code="1R"
+        Name="Hainan Phoenix Information Systems"
+        platenumber="" />
+    <Airline
+        Code="2T"
+        Name="Haiti Ambassador Airlines"
+        platenumber="" />
+    <Airline
+        Code="4R"
+        Name="Hamburg International"
+        platenumber="" />
+    <Airline
+        Code="X3"
+        Name="TUIfly"
+        platenumber="" />
+    <Airline
+        Code="HF"
+        Name="Hapagfly"
+        platenumber="" />
+    <Airline
+        Code="HB"
+        Name="Harbor Airlines"
+        platenumber="679" />
+    <Airline
+        Code="HQ"
+        Name="Harmony Airways"
+        platenumber="357" />
+    <Airline
+        Code="HA"
+        Name="Hawaiian Airlines"
+        platenumber="173" />
+    <Airline
+        Code="HP"
+        Name="Hawaiian Pacific Airlines"
+        platenumber="401" />
+    <Airline
+        Code="BH"
+        Name="Hawkair"
+        platenumber="" />
+    <Airline
+        Code="HN"
+        Name="Heavylift Cargo Airlines"
+        platenumber="195" />
+    <Airline
+        Code="8H"
+        Name="Heli France"
+        platenumber="458" />
+    <Airline
+        Code="JB"
+        Name="Helijet"
+        platenumber="613" />
+    <Airline
+        Code="ZU"
+        Name="Helios Airways"
+        platenumber="221" />
+    <Airline
+        Code="T4"
+        Name="Hellas Jet"
+        platenumber="" />
+    <Airline
+        Code="HW"
+        Name="Hello"
+        platenumber="" />
+    <Airline
+        Code="2L"
+        Name="Helvetic Airways"
+        platenumber="" />
+    <Airline
+        Code="DU"
+        Name="Hemus Air"
+        platenumber="892" />
+    <Airline
+        Code="EO"
+        Name="Hewa Bora Airways"
+        platenumber="650" />
+    <Airline
+        Code="UD"
+        Name="Hex&apos;Air"
+        platenumber="726" />
+    <Airline
+        Code="5K"
+        Name="Hi Fly"
+        platenumber="" />
+    <Airline
+        Code="HD"
+        Name="Hokkaido International Airlines"
+        platenumber="814" />
+    <Airline
+        Code="H5"
+        Name="Hola Airlines"
+        platenumber="" />
+    <Airline
+        Code="HX"
+        Name="Hong Kong Airlines"
+        platenumber="099" />
+    <Airline
+        Code="UO"
+        Name="Hong Kong Express Airways"
+        platenumber="418" />
+    <Airline
+        Code="HH"
+        Name="Hope Air"
+        platenumber="089" />
+    <Airline
+        Code="QX"
+        Name="Horizon Air"
+        platenumber="481" />
+    <Airline
+        Code="BN"
+        Name="Horizon Airlines"
+        platenumber="922" />
+    <Airline
+        Code="H4"
+        Name="Héli Sécurité Helicopter Airlines"
+        platenumber="" />
+    <Airline
+        Code="II"
+        Name="IBC Airways"
+        platenumber="" />
+    <Airline
+        Code="C3"
+        Name="ICAR Airlines"
+        platenumber="" />
+    <Airline
+        Code="1F"
+        Name="INFINI Travel Information"
+        platenumber="" />
+    <Airline
+        Code="1U"
+        Name="ITA Software"
+        platenumber="" />
+    <Airline
+        Code="IB"
+        Name="Iberia Airlines"
+        platenumber="075" />
+    <Airline
+        Code="TY"
+        Name="Iberworld"
+        platenumber="190" />
+    <Airline
+        Code="FW"
+        Name="Ibex Airlines"
+        platenumber="" />
+    <Airline
+        Code="FI"
+        Name="Icelandair"
+        platenumber="108" />
+    <Airline
+        Code="IK"
+        Name="Imair Airlines"
+        platenumber="" />
+    <Airline
+        Code="DH"
+        Name="Independence Air"
+        platenumber="438" />
+    <Airline
+        Code="6E"
+        Name="IndiGo Airlines"
+        platenumber="984" />
+    <Airline
+        Code="IC"
+        Name="Indian Airlines"
+        platenumber="058" />
+    <Airline
+        Code="I9"
+        Name="Indigo"
+        platenumber="" />
+    <Airline
+        Code="QZ"
+        Name="Indonesia AirAsia"
+        platenumber="169" />
+    <Airline
+        Code="IO"
+        Name="Indonesian Airlines"
+        platenumber="153" />
+    <Airline
+        Code="IJ"
+        Name="InteliJet Airways"
+        platenumber="936" />
+    <Airline
+        Code="H4"
+        Name="Inter Islands Airlines"
+        platenumber="" />
+    <Airline
+        Code="D6"
+        Name="Interair South Africa"
+        platenumber="" />
+    <Airline
+        Code="ZA"
+        Name="Interavia Airlines"
+        platenumber="708" />
+    <Airline
+        Code="RS"
+        Name="Intercontinental de Aviaci"
+        platenumber="" />
+    <Airline
+        Code="ID"
+        Name="Interlink Airlines"
+        platenumber="694" />
+    <Airline
+        Code="6I"
+        Name="International Business Air"
+        platenumber="" />
+    <Airline
+        Code="3L"
+        Name="Intersky"
+        platenumber="" />
+    <Airline
+        Code="I4"
+        Name="Interstate Airline"
+        platenumber="" />
+    <Airline
+        Code="IR"
+        Name="Iran Air"
+        platenumber="096" />
+    <Airline
+        Code="EP"
+        Name="Iran Aseman Airlines"
+        platenumber="" />
+    <Airline
+        Code="IA"
+        Name="Iraqi Airways"
+        platenumber="073" />
+    <Airline
+        Code="IS"
+        Name="Island Airlines"
+        platenumber="" />
+    <Airline
+        Code="2S"
+        Name="Island Express"
+        platenumber="" />
+    <Airline
+        Code="8L"
+        Name="Cargo Plus Aviation"
+        platenumber="" />
+    <Airline
+        Code="CN"
+        Name="Islands Nationair"
+        platenumber="" />
+    <Airline
+        Code="IF"
+        Name="Islas Airways"
+        platenumber="107" />
+    <Airline
+        Code="WC"
+        Name="Islena De Inversiones"
+        platenumber="282" />
+    <Airline
+        Code="6H"
+        Name="Israir"
+        platenumber="" />
+    <Airline
+        Code="9X"
+        Name="Itali Airlines"
+        platenumber="940" />
+    <Airline
+        Code="GI"
+        Name="Itek Air"
+        platenumber="093" />
+    <Airline
+        Code="H9"
+        Name="Izair"
+        platenumber="" />
+    <Airline
+        Code="JC"
+        Name="JAL Express"
+        platenumber="428" />
+    <Airline
+        Code="JO"
+        Name="JALways"
+        platenumber="" />
+    <Airline
+        Code="1M"
+        Name="JSC Transport Automated Information Systems"
+        platenumber="" />
+    <Airline
+        Code="JL"
+        Name="Japan Airlines"
+        platenumber="131" />
+    <Airline
+        Code="JL"
+        Name="Japan Airlines Domestic"
+        platenumber="131" />
+    <Airline
+        Code="EG"
+        Name="Japan Asia Airways"
+        platenumber="688" />
+    <Airline
+        Code="NU"
+        Name="Japan Transocean Air"
+        platenumber="353" />
+    <Airline
+        Code="JU"
+        Name="Jat Airways"
+        platenumber="115" />
+    <Airline
+        Code="VJ"
+        Name="Jatayu Airlines"
+        platenumber="900" />
+    <Airline
+        Code="J9"
+        Name="Jazeera Airways"
+        platenumber="" />
+    <Airline
+        Code="7C"
+        Name="Jeju Air"
+        platenumber="" />
+    <Airline
+        Code="9W"
+        Name="Jet Airways"
+        platenumber="589" />
+    <Airline
+        Code="QJ"
+        Name="Jet Airways"
+        platenumber="" />
+    <Airline
+        Code="0J"
+        Name="Jetclub"
+        platenumber="" />
+    <Airline
+        Code="3K"
+        Name="Jetstar Asia Airways"
+        platenumber="" />
+    <Airline
+        Code="LS"
+        Name="Jet2.com"
+        platenumber="" />
+    <Airline
+        Code="8J"
+        Name="Jet4You"
+        platenumber="662" />
+    <Airline
+        Code="B6"
+        Name="JetBlue Airways"
+        platenumber="279" />
+    <Airline
+        Code="JF"
+        Name="Jetairfly"
+        platenumber="510" />
+    <Airline
+        Code="0J"
+        Name="Jetclub"
+        platenumber="" />
+    <Airline
+        Code="SG"
+        Name="JetsGo"
+        platenumber="" />
+    <Airline
+        Code="JQ"
+        Name="Jetstar Airways"
+        platenumber="100" />
+    <Airline
+        Code="JX"
+        Name="Jett8 Airlines Cargo"
+        platenumber="691" />
+    <Airline
+        Code="GX"
+        Name="Jetx Airlines"
+        platenumber="368" />
+    <Airline
+        Code="R5"
+        Name="Jordan Aviation"
+        platenumber="" />
+    <Airline
+        Code="HO"
+        Name="Juneyao Airlines"
+        platenumber="372" />
+    <Airline
+        Code="KD"
+        Name="KD Avia"
+        platenumber="678" />
+    <Airline
+        Code="WA"
+        Name="KLM Cityhopper"
+        platenumber="797" />
+    <Airline
+        Code="KL"
+        Name="KLM Royal Dutch Airlines"
+        platenumber="074" />
+    <Airline
+        Code="N2"
+        Name="Kabo Air"
+        platenumber="" />
+    <Airline
+        Code="K4"
+        Name="Kalitta Air"
+        platenumber="" />
+    <Airline
+        Code="RQ"
+        Name="Kam Air"
+        platenumber="834" />
+    <Airline
+        Code="E2"
+        Name="Kampuchea Airlines"
+        platenumber="" />
+    <Airline
+        Code="V2"
+        Name="Karat"
+        platenumber="" />
+    <Airline
+        Code="KV"
+        Name="Kavminvodyavia"
+        platenumber="264" />
+    <Airline
+        Code="M5"
+        Name="Kenmore Air"
+        platenumber="" />
+    <Airline
+        Code="KQ"
+        Name="Kenya Airways"
+        platenumber="706" />
+    <Airline
+        Code="BZ"
+        Name="Keystone Air Services"
+        platenumber="" />
+    <Airline
+        Code="IT"
+        Name="Kingfisher Airlines"
+        platenumber="090" />
+    <Airline
+        Code="Y9"
+        Name="Kish Air"
+        platenumber="" />
+    <Airline
+        Code="KP"
+        Name="Kiwi International Air Lines"
+        platenumber="103" />
+    <Airline
+        Code="7K"
+        Name="Kogalymavia Air Company"
+        platenumber="" />
+    <Airline
+        Code="8J"
+        Name="Komiinteravia"
+        platenumber="662" />
+    <Airline
+        Code="KE"
+        Name="Korean Air"
+        platenumber="180" />
+    <Airline
+        Code="7B"
+        Name="Krasnojarsky Airlines"
+        platenumber="166" />
+    <Airline
+        Code="K9"
+        Name="Krylo Airlines"
+        platenumber="" />
+    <Airline
+        Code="GW"
+        Name="Kuban Airlines"
+        platenumber="712" />
+    <Airline
+        Code="VD"
+        Name="Kunpeng Airlines"
+        platenumber="718" />
+    <Airline
+        Code="KU"
+        Name="Kuwait Airways"
+        platenumber="229" />
+    <Airline
+        Code="GO"
+        Name="Kuzu Airlines Cargo"
+        platenumber="216" />
+    <Airline
+        Code="N5"
+        Name="Kyrgyz Airlines"
+        platenumber="" />
+    <Airline
+        Code="QH"
+        Name="Kyrgyzstan"
+        platenumber="" />
+    <Airline
+        Code="R8"
+        Name="Kyrgyzstan Airlines"
+        platenumber="" />
+    <Airline
+        Code="KY"
+        Name="Kibris T"
+        platenumber="914" />
+    <Airline
+        Code="JF"
+        Name="L.A.B. Flying Service"
+        platenumber="510" />
+    <Airline
+        Code="LR"
+        Name="LACSA"
+        platenumber="133" />
+    <Airline
+        Code="KG"
+        Name="LAI - Linea Aerea IAACA"
+        platenumber="" />
+    <Airline
+        Code="LA"
+        Name="LAN Airlines"
+        platenumber="045" />
+    <Airline
+        Code="4M"
+        Name="LAN Argentina"
+        platenumber="" />
+    <Airline
+        Code="LU"
+        Name="LAN Express"
+        platenumber="" />
+    <Airline
+        Code="LP"
+        Name="LAN Peru"
+        platenumber="" />
+    <Airline
+        Code="LO"
+        Name="LOT Polish Airlines"
+        platenumber="080" />
+    <Airline
+        Code="XO"
+        Name="LTE International Airways"
+        platenumber="" />
+    <Airline
+        Code="L3"
+        Name="LTU Austria"
+        platenumber="" />
+    <Airline
+        Code="LT"
+        Name="LTU International"
+        platenumber="266" />
+    <Airline
+        Code="N6"
+        Name="Lagun Air"
+        platenumber="" />
+    <Airline
+        Code="IK"
+        Name="Lankair"
+        platenumber="" />
+    <Airline
+        Code="QV"
+        Name="Lao Airlines"
+        platenumber="627" />
+    <Airline
+        Code="L7"
+        Name="Laoag International Airlines"
+        platenumber="" />
+    <Airline
+        Code="NG"
+        Name="Lauda Air"
+        platenumber="231" />
+    <Airline
+        Code="LQ"
+        Name="Lebanese Air Transport"
+        platenumber="" />
+    <Airline
+        Code="LI"
+        Name="Leeward Islands Air Transport"
+        platenumber="140" />
+    <Airline
+        Code="LN"
+        Name="Libyan Arab Airlines"
+        platenumber="148" />
+    <Airline
+        Code="L7"
+        Name="Linea Aerea SAPSA"
+        platenumber="" />
+    <Airline
+        Code="8z"
+        Name="Linea Aerea de Servicio Ejecutivo Regional"
+        platenumber="" />
+    <Airline
+        Code="LD"
+        Name="Linea Turistica Aerotuy"
+        platenumber="177" />
+    <Airline
+        Code="ZE"
+        Name="Lineas Aereas Azteca"
+        platenumber="" />
+    <Airline
+        Code="LM"
+        Name="Linhas A"
+        platenumber="119" />
+    <Airline
+        Code="JT"
+        Name="Lion Mentari Airlines"
+        platenumber="" />
+    <Airline
+        Code="LM"
+        Name="Livingston"
+        platenumber="119" />
+    <Airline
+        Code="LB"
+        Name="Lloyd Aereo Boliviano"
+        platenumber="051" />
+    <Airline
+        Code="HE"
+        Name="Luftfahrtgesellschaft Walter"
+        platenumber="921" />
+    <Airline
+        Code="LH"
+        Name="Lufthansa"
+        platenumber="220" />
+    <Airline
+        Code="LH"
+        Name="Lufthansa Cargo"
+        platenumber="220" />
+    <Airline
+        Code="CL"
+        Name="Lufthansa CityLine"
+        platenumber="175" />
+    <Airline
+        Code="L1"
+        Name="Lufthansa Systems"
+        platenumber="" />
+    <Airline
+        Code="DV"
+        Name="Lufttaxi Fluggesellschaft"
+        platenumber="" />
+    <Airline
+        Code="L5"
+        Name="Lufttransport"
+        platenumber="" />
+    <Airline
+        Code="LG"
+        Name="Luxair"
+        platenumber="149" />
+    <Airline
+        Code="5V"
+        Name="Lviv Airlines"
+        platenumber="" />
+    <Airline
+        Code="L2"
+        Name="Lynden Air Cargo"
+        platenumber="" />
+    <Airline
+        Code="MJ"
+        Name="L"
+        platenumber="069" />
+    <Airline
+        Code="M7"
+        Name="MasAir"
+        platenumber="" />
+    <Airline
+        Code="IN"
+        Name="MAT Macedonian Airlines"
+        platenumber="" />
+    <Airline
+        Code="OM"
+        Name="MIAT Mongolian Airlines"
+        platenumber="289" />
+    <Airline
+        Code="MB"
+        Name="MNG Airlines"
+        platenumber="" />
+    <Airline
+        Code="CC"
+        Name="Macair Airlines"
+        platenumber="222" />
+    <Airline
+        Code="DM"
+        Name="Maersk"
+        platenumber="349" />
+    <Airline
+        Code="W5"
+        Name="Mahan Air"
+        platenumber="" />
+    <Airline
+        Code="M2"
+        Name="Mahfooz Aviation"
+        platenumber="" />
+    <Airline
+        Code="MH"
+        Name="Malaysia Airlines"
+        platenumber="232" />
+    <Airline
+        Code="TF"
+        Name="Malmö Aviation"
+        platenumber="655" />
+    <Airline
+        Code="R5"
+        Name="Malta Air Charter"
+        platenumber="" />
+    <Airline
+        Code="MA"
+        Name="Malév"
+        platenumber="182" />
+    <Airline
+        Code="RI"
+        Name="Mandala Airlines"
+        platenumber="" />
+    <Airline
+        Code="AE"
+        Name="Mandarin Airlines"
+        platenumber="803" />
+    <Airline
+        Code="JE"
+        Name="Mango"
+        platenumber="916" />
+    <Airline
+        Code="6V"
+        Name="Mars RK"
+        platenumber="" />
+    <Airline
+        Code="M7"
+        Name="Marsland Aviation"
+        platenumber="" />
+    <Airline
+        Code="MP"
+        Name="Martinair"
+        platenumber="" />
+    <Airline
+        Code="Q4"
+        Name="Mastertop Linhas Aereas"
+        platenumber="" />
+    <Airline
+        Code="H5"
+        Name="Mavial Magadan Airlines"
+        platenumber="" />
+    <Airline
+        Code="8M"
+        Name="Maxair"
+        platenumber="581" />
+    <Airline
+        Code="MY"
+        Name="Maxjet Airways"
+        platenumber="" />
+    <Airline
+        Code="MW"
+        Name="Maya Island Air"
+        platenumber="" />
+    <Airline
+        Code="IM"
+        Name="Menajet"
+        platenumber="" />
+    <Airline
+        Code="IG"
+        Name="Meridiana"
+        platenumber="191" />
+    <Airline
+        Code="MZ"
+        Name="Merpati Nusantara Airlines"
+        platenumber="621" />
+    <Airline
+        Code="YV"
+        Name="Mesa Airlines"
+        platenumber="533" />
+    <Airline
+        Code="XJ"
+        Name="Mesaba Airlines"
+        platenumber="582" />
+    <Airline
+        Code="MX"
+        Name="Mexicana de Aviaci"
+        platenumber="132" />
+    <Airline
+        Code="GL"
+        Name="Miami Air International"
+        platenumber="631" />
+    <Airline
+        Code="ME"
+        Name="Middle East Airlines"
+        platenumber="076" />
+    <Airline
+        Code="JI"
+        Name="Midway Airlines"
+        platenumber="878" />
+    <Airline
+        Code="YX"
+        Name="Midwest Airlines"
+        platenumber="453" />
+    <Airline
+        Code="MY"
+        Name="Midwest Airlines (Egypt)"
+        platenumber="" />
+    <Airline
+        Code="2M"
+        Name="Moldavian Airlines"
+        platenumber="" />
+    <Airline
+        Code="ZB"
+        Name="Monarch Airlines"
+        platenumber="974" />
+    <Airline
+        Code="8I"
+        Name="Myway Airlines"
+        platenumber="" />
+    <Airline
+        Code="YM"
+        Name="Montenegro Airlines"
+        platenumber="612" />
+    <Airline
+        Code="3R"
+        Name="Moskovia Airlines"
+        platenumber="812" />
+    <Airline
+        Code="M9"
+        Name="Motor Sich"
+        platenumber="" />
+    <Airline
+        Code="NM"
+        Name="Mount Cook Airlines"
+        platenumber="445" />
+    <Airline
+        Code="N4"
+        Name="Mountain Air Company"
+        platenumber="" />
+    <Airline
+        Code="VZ"
+        Name="MyTravel Airways"
+        platenumber="" />
+    <Airline
+        Code="UB"
+        Name="Myanma Airways"
+        platenumber="209" />
+    <Airline
+        Code="8M"
+        Name="Myanmar Airways International"
+        platenumber="581" />
+    <Airline
+        Code="DV"
+        Name="Nantucket Airlines"
+        platenumber="" />
+    <Airline
+        Code="P9"
+        Name="Nas Air"
+        platenumber="" />
+    <Airline
+        Code="UE"
+        Name="Nasair"
+        platenumber="396" />
+    <Airline
+        Code="N4"
+        Name="National Airlines"
+        platenumber="" />
+    <Airline
+        Code="N7"
+        Name="National Airlines"
+        platenumber="" />
+    <Airline
+        Code="NA"
+        Name="National Airlines"
+        platenumber="" />
+    <Airline
+        Code="9O"
+        Name="National Airways Cameroon"
+        platenumber="" />
+    <Airline
+        Code="NC"
+        Name="National Jet Systems"
+        platenumber="305" />
+    <Airline
+        Code="CE"
+        Name="Nationwide Airlines"
+        platenumber="" />
+    <Airline
+        Code="ON"
+        Name="Nauru Air Corporation"
+        platenumber="123" />
+    <Airline
+        Code="1N"
+        Name="Navitaire"
+        platenumber="" />
+    <Airline
+        Code="RA"
+        Name="Nepal Airlines"
+        platenumber="285" />
+    <Airline
+        Code="NO"
+        Name="Neos"
+        platenumber="" />
+    <Airline
+        Code="1I"
+        Name="NetJets"
+        platenumber="" />
+    <Airline
+        Code="EJ"
+        Name="New England Airlines"
+        platenumber="367" />
+    <Airline
+        Code="2N"
+        Name="NextJet"
+        platenumber="" />
+    <Airline
+        Code="HG"
+        Name="Niki"
+        platenumber="495" />
+    <Airline
+        Code="KZ"
+        Name="Nippon Cargo Airlines"
+        platenumber="933" />
+    <Airline
+        Code="DD"
+        Name="Nok Air"
+        platenumber="" />
+    <Airline
+        Code="JH"
+        Name="Nordeste Linhas Aereas Regionais"
+        platenumber="" />
+    <Airline
+        Code="6N"
+        Name="Nordic Regional"
+        platenumber="" />
+    <Airline
+        Code="N9"
+        Name="North Coast Aviation"
+        platenumber="" />
+    <Airline
+        Code="M3"
+        Name="North Flying"
+        platenumber="" />
+    <Airline
+        Code="HW"
+        Name="North-Wright Airways"
+        platenumber="" />
+    <Airline
+        Code="NC"
+        Name="Northern Air Cargo"
+        platenumber="305" />
+    <Airline
+        Code="U7"
+        Name="Northern Dene Airways"
+        platenumber="" />
+    <Airline
+        Code="NW"
+        Name="Northwest Airlines"
+        platenumber="012" />
+    <Airline
+        Code="FY"
+        Name="Northwest Regional Airlines"
+        platenumber="" />
+    <Airline
+        Code="J3"
+        Name="Northwestern Air"
+        platenumber="" />
+    <Airline
+        Code="DY"
+        Name="Norwegian Air Shuttle"
+        platenumber="328" />
+    <Airline
+        Code="BJ"
+        Name="Nouvel Air Tunisie"
+        platenumber="" />
+    <Airline
+        Code="M4"
+        Name="Nova Airline"
+        platenumber="" />
+    <Airline
+        Code="1I"
+        Name="Novair"
+        platenumber="" />
+    <Airline
+        Code="N6"
+        Name="Nuevo Continente"
+        platenumber="" />
+    <Airline
+        Code="XY"
+        Name="Nas Air"
+        platenumber="251" />
+    <Airline
+        Code="UQ"
+        Name="O&apos;Connor Airlines"
+        platenumber="" />
+    <Airline
+        Code="CR"
+        Name="OAG"
+        platenumber="" />
+    <Airline
+        Code="O8"
+        Name="Oasis Hong Kong Airlines"
+        platenumber="" />
+    <Airline
+        Code="VC"
+        Name="Ocean Airlines"
+        platenumber="985" />
+    <Airline
+        Code="O6"
+        Name="Oceanair"
+        platenumber="" />
+    <Airline
+        Code="O2"
+        Name="Oceanic Airlines"
+        platenumber="" />
+    <Airline
+        Code="OA"
+        Name="Olympic Airlines"
+        platenumber="050" />
+    <Airline
+        Code="WY"
+        Name="Oman Air"
+        platenumber="910" />
+    <Airline
+        Code="OY"
+        Name="Omni Air International"
+        platenumber="" />
+    <Airline
+        Code="N3"
+        Name="Omskavia Airline"
+        platenumber="" />
+    <Airline
+        Code="8Q"
+        Name="Onur Air"
+        platenumber="" />
+    <Airline
+        Code="R2"
+        Name="Orenburg Airlines"
+        platenumber="" />
+    <Airline
+        Code="OX"
+        Name="Orient Thai Airlines"
+        platenumber="" />
+    <Airline
+        Code="QO"
+        Name="Origin Pacific Airways"
+        platenumber="473" />
+    <Airline
+        Code="OL"
+        Name="Ostfriesische Lufttransport"
+        platenumber="704" />
+    <Airline
+        Code="ON"
+        Name="Our Airline"
+        platenumber="123" />
+    <Airline
+        Code="OJ"
+        Name="Overland Airways"
+        platenumber="981" />
+    <Airline
+        Code="OZ"
+        Name="Ozark Air Lines"
+        platenumber="988" />
+    <Airline
+        Code="O7"
+        Name="Ozjet Airlines"
+        platenumber="" />
+    <Airline
+        Code="PV"
+        Name="PAN Air"
+        platenumber="311" />
+    <Airline
+        Code="9Q"
+        Name="PB Air"
+        platenumber="" />
+    <Airline
+        Code="PU"
+        Name="PLUNA"
+        platenumber="286" />
+    <Airline
+        Code="U4"
+        Name="PMTair"
+        platenumber="" />
+    <Airline
+        Code="Y5"
+        Name="Pace Airlines"
+        platenumber="" />
+    <Airline
+        Code="BL"
+        Name="Jetstar Pacific"
+        platenumber="" />
+    <Airline
+        Code="DJ"
+        Name="Pacific Blue"
+        platenumber="611" />
+    <Airline
+        Code="8P"
+        Name="Pacific Coastal Airline"
+        platenumber="905" />
+    <Airline
+        Code="Q8"
+        Name="Pacific East Asia Cargo Airlines"
+        platenumber="" />
+    <Airline
+        Code="PS"
+        Name="Pacific Southwest Airlines"
+        platenumber="" />
+    <Airline
+        Code="LW"
+        Name="Pacific Wings"
+        platenumber="568" />
+    <Airline
+        Code="GX"
+        Name="Pacificair"
+        platenumber="368" />
+    <Airline
+        Code="PK"
+        Name="Pakistan International Airlines"
+        platenumber="214" />
+    <Airline
+        Code="GP"
+        Name="Palau Trans Pacific Airline"
+        platenumber="625" />
+    <Airline
+        Code="PF"
+        Name="Palestinian Airlines"
+        platenumber="925" />
+    <Airline
+        Code="NR"
+        Name="Pamir Airways"
+        platenumber="066" />
+    <Airline
+        Code="PA"
+        Name="Pan American Airways"
+        platenumber="" />
+    <Airline
+        Code="PA"
+        Name="Pan American World Airways"
+        platenumber="" />
+    <Airline
+        Code="PQ"
+        Name="Panafrican Airways"
+        platenumber="561" />
+    <Airline
+        Code="P8"
+        Name="Pantanal Linhas Aéreas"
+        platenumber="" />
+    <Airline
+        Code="I7"
+        Name="Paramount Airways"
+        platenumber="" />
+    <Airline
+        Code="HP"
+        Name="Pearl Airways"
+        platenumber="401" />
+    <Airline
+        Code="PC"
+        Name="Pegasus Airlines"
+        platenumber="677" />
+    <Airline
+        Code="1I"
+        Name="Pegasus Hava Tasimaciligi"
+        platenumber="" />
+    <Airline
+        Code="KS"
+        Name="Peninsula Airways"
+        platenumber="339" />
+    <Airline
+        Code="P9"
+        Name="Perm Airlines"
+        platenumber="" />
+    <Airline
+        Code="PR"
+        Name="Philippine Airlines"
+        platenumber="079" />
+    <Airline
+        Code="HP"
+        Name="Phoenix Airways"
+        platenumber="401" />
+    <Airline
+        Code="9R"
+        Name="Phuket Air"
+        platenumber="359" />
+    <Airline
+        Code="PI"
+        Name="Piedmont Airlines (1948-1989)"
+        platenumber="252" />
+    <Airline
+        Code="9E"
+        Name="Pinnacle Airlines"
+        platenumber="430" />
+    <Airline
+        Code="PO"
+        Name="Polar Air Cargo"
+        platenumber="" />
+    <Airline
+        Code="PH"
+        Name="Polynesian Airlines"
+        platenumber="162" />
+    <Airline
+        Code="DJ"
+        Name="Polynesian Blue"
+        platenumber="611" />
+    <Airline
+        Code="1U"
+        Name="Polyot Sirena"
+        platenumber="" />
+    <Airline
+        Code="PD"
+        Name="Porter Airlines"
+        platenumber="329" />
+    <Airline
+        Code="NI"
+        Name="Portugalia"
+        platenumber="685" />
+    <Airline
+        Code="BK"
+        Name="Potomac Air"
+        platenumber="522" />
+    <Airline
+        Code="PW"
+        Name="Precision Air"
+        platenumber="" />
+    <Airline
+        Code="TO"
+        Name="President Airlines"
+        platenumber="751" />
+    <Airline
+        Code="FE"
+        Name="Primaris Airlines"
+        platenumber="" />
+    <Airline
+        Code="8Q"
+        Name="Princess Air"
+        platenumber="" />
+    <Airline
+        Code="8W"
+        Name="Private Wings Flugcharter"
+        platenumber="" />
+    <Airline
+        Code="P0"
+        Name="Proflight Commuter Services"
+        platenumber="" />
+    <Airline
+        Code="QF"
+        Name="Qantas"
+        platenumber="081" />
+    <Airline
+        Code="QR"
+        Name="Qatar Airways"
+        platenumber="157" />
+    <Airline
+        Code="R6"
+        Name="RACSA"
+        platenumber="256" />
+    <Airline
+        Code="1D"
+        Name="Radixx Solutions International"
+        platenumber="" />
+    <Airline
+        Code="8L"
+        Name="Redhill Aviation"
+        platenumber="" />
+    <Airline
+        Code="V4"
+        Name="Reem Air"
+        platenumber="" />
+    <Airline
+        Code="FN"
+        Name="Regional Airlines"
+        platenumber="" />
+    <Airline
+        Code="ZL"
+        Name="Regional Express"
+        platenumber="" />
+    <Airline
+        Code="3C"
+        Name="RegionsAir"
+        platenumber="451" />
+    <Airline
+        Code="QQ"
+        Name="Reno Air"
+        platenumber="446" />
+    <Airline
+        Code="RW"
+        Name="Republic Airlines"
+        platenumber="" />
+    <Airline
+        Code="RH"
+        Name="Republic Express Airlines"
+        platenumber="" />
+    <Airline
+        Code="C7"
+        Name="Rico Linhas A"
+        platenumber="" />
+    <Airline
+        Code="E2"
+        Name="Rio Grande Air"
+        platenumber="" />
+    <Airline
+        Code="SL"
+        Name="Rio Sul Servi"
+        platenumber="293" />
+    <Airline
+        Code="R4"
+        Name="Rossiya"
+        platenumber="" />
+    <Airline
+        Code="GZ"
+        Name="Air Rarotonga"
+        platenumber="755" />
+    <Airline
+        Code="RR"
+        Name="Royal Air Force"
+        platenumber="" />
+    <Airline
+        Code="RS"
+        Name="Royal Air Force of Oman"
+        platenumber="" />
+    <Airline
+        Code="AT"
+        Name="Royal Air Maroc"
+        platenumber="147" />
+    <Airline
+        Code="R0"
+        Name="Royal Airlines"
+        platenumber="" />
+    <Airline
+        Code="V5"
+        Name="Royal Aruban Airline"
+        platenumber="" />
+    <Airline
+        Code="BI"
+        Name="Royal Brunei Airlines"
+        platenumber="672" />
+    <Airline
+        Code="RJ"
+        Name="Royal Jordanian"
+        platenumber="512" />
+    <Airline
+        Code="RK"
+        Name="Royal Khmer Airlines"
+        platenumber="092" />
+    <Airline
+        Code="RA"
+        Name="Royal Nepal Airlines"
+        platenumber="285" />
+    <Airline
+        Code="WR"
+        Name="Royal Tongan Airlines"
+        platenumber="971" />
+    <Airline
+        Code="P7"
+        Name="Russian Sky Airlines"
+        platenumber="" />
+    <Airline
+        Code="WB"
+        Name="Rwandair Express"
+        platenumber="739" />
+    <Airline
+        Code="RD"
+        Name="Ryan International Airlines"
+        platenumber="" />
+    <Airline
+        Code="FR"
+        Name="Ryanair"
+        platenumber="224" />
+    <Airline
+        Code="YS"
+        Name="Régional"
+        platenumber="" />
+    <Airline
+        Code="S4"
+        Name="SATA International"
+        platenumber="" />
+    <Airline
+        Code="SA"
+        Name="South African Airways"
+        platenumber="083" />
+    <Airline
+        Code="NL"
+        Name="Shaheen Air International"
+        platenumber="740" />
+    <Airline
+        Code="MM"
+        Name="SAM Colombia"
+        platenumber="334" />
+    <Airline
+        Code="SK"
+        Name="Scandinavian Airlines System"
+        platenumber="117" />
+    <Airline
+        Code="S7"
+        Name="S7 Airlines"
+        platenumber="" />
+    <Airline
+        Code="BB"
+        Name="Seaborne Airlines"
+        platenumber="907" />
+    <Airline
+        Code="UL"
+        Name="SriLankan Airlines"
+        platenumber="603" />
+    <Airline
+        Code="SY"
+        Name="Sun Country Airlines"
+        platenumber="" />
+    <Airline
+        Code="G3"
+        Name="Sky Express"
+        platenumber="" />
+    <Airline
+        Code="SG"
+        Name="Spicejet"
+        platenumber="" />
+    <Airline
+        Code="I6"
+        Name="Sky Eyes"
+        platenumber="" />
+    <Airline
+        Code="EH"
+        Name="SAETA"
+        platenumber="156" />
+    <Airline
+        Code="7G"
+        Name="Star Flyer"
+        platenumber="" />
+    <Airline
+        Code="FA"
+        Name="Safair"
+        platenumber="" />
+    <Airline
+        Code="N5"
+        Name="Skagway Air Service"
+        platenumber="" />
+    <Airline
+        Code="SP"
+        Name="SATA Air Acores"
+        platenumber="737" />
+    <Airline
+        Code="8S"
+        Name="Scorpio Aviation"
+        platenumber="477" />
+    <Airline
+        Code="SQ"
+        Name="Singapore Airlines"
+        platenumber="618" />
+    <Airline
+        Code="5M"
+        Name="Sibaviatrans"
+        platenumber="" />
+    <Airline
+        Code="SI"
+        Name="Skynet Airlines"
+        platenumber="" />
+    <Airline
+        Code="XS"
+        Name="SITA"
+        platenumber="950" />
+    <Airline
+        Code="SJ"
+        Name="Sriwijaya Air"
+        platenumber="351" />
+    <Airline
+        Code="ZS"
+        Name="Sama Airlines"
+        platenumber="263" />
+    <Airline
+        Code="SQ"
+        Name="Singapore Airlines Cargo"
+        platenumber="618" />
+    <Airline
+        Code="FT"
+        Name="Siem Reap Airways"
+        platenumber="" />
+    <Airline
+        Code="SX"
+        Name="Sky Work Airlines"
+        platenumber="509" />
+    <Airline
+        Code="SM"
+        Name="Swedline Express"
+        platenumber="731" />
+    <Airline
+        Code="DG"
+        Name="South East Asian Airlines"
+        platenumber="" />
+    <Airline
+        Code="VD"
+        Name="SwedJet Airways"
+        platenumber="718" />
+    <Airline
+        Code="5G"
+        Name="Skyservice Airlines"
+        platenumber="" />
+    <Airline
+        Code="FS"
+        Name="Servicios de Transportes A"
+        platenumber="" />
+    <Airline
+        Code="SD"
+        Name="Sudan Airways"
+        platenumber="200" />
+    <Airline
+        Code="PI"
+        Name="Sun Air (Fiji)"
+        platenumber="252" />
+    <Airline
+        Code="EZ"
+        Name="Sun Air of Scandinavia"
+        platenumber="" />
+    <Airline
+        Code="SV"
+        Name="Saudi Arabian Airlines"
+        platenumber="065" />
+    <Airline
+        Code="WN"
+        Name="Southwest Airlines"
+        platenumber="526" />
+    <Airline
+        Code="A4"
+        Name="Southern Winds Airlines"
+        platenumber="" />
+    <Airline
+        Code="WG"
+        Name="Sunwing Airlines"
+        platenumber="" />
+    <Airline
+        Code="LX"
+        Name="Swiss International Air Lines"
+        platenumber="724" />
+    <Airline
+        Code="SR"
+        Name="Swissair"
+        platenumber="085" />
+    <Airline
+        Code="WV"
+        Name="Swe Fly"
+        platenumber="896" />
+    <Airline
+        Code="S8"
+        Name="Shovkoviy Shlyah"
+        platenumber="" />
+    <Airline
+        Code="XQ"
+        Name="SunExpress"
+        platenumber="410" />
+    <Airline
+        Code="RB"
+        Name="Syrian Arab Airlines"
+        platenumber="070" />
+    <Airline
+        Code="AL"
+        Name="Skywalk Airlines"
+        platenumber="" />
+    <Airline
+        Code="ZP"
+        Name="Silk Way Airlines"
+        platenumber="315" />
+    <Airline
+        Code="E5"
+        Name="Samara Airlines"
+        platenumber="" />
+    <Airline
+        Code="SC"
+        Name="Shandong Airlines"
+        platenumber="049" />
+    <Airline
+        Code="9S"
+        Name="Spring Airlines"
+        platenumber="" />
+    <Airline
+        Code="3U"
+        Name="Sichuan Airlines"
+        platenumber="" />
+    <Airline
+        Code="FM"
+        Name="Shanghai Airlines"
+        platenumber="023" />
+    <Airline
+        Code="ZH"
+        Name="Shenzhen Airlines"
+        platenumber="" />
+    <Airline
+        Code="8C"
+        Name="Shanxi Airlines"
+        platenumber="" />
+    <Airline
+        Code="7L"
+        Name="Sun D&apos;Or"
+        platenumber="461" />
+    <Airline
+        Code="NE"
+        Name="SkyEurope"
+        platenumber="" />
+    <Airline
+        Code="CQ"
+        Name="Sunshine Express Airlines"
+        platenumber="" />
+    <Airline
+        Code="SO"
+        Name="Superior Aviation"
+        platenumber="" />
+    <Airline
+        Code="JK"
+        Name="Spanair"
+        platenumber="" />
+    <Airline
+        Code="2G"
+        Name="San Juan Airlines"
+        platenumber="" />
+    <Airline
+        Code="1Z"
+        Name="Sabre Pacific"
+        platenumber="" />
+    <Airline
+        Code="1S"
+        Name="Sabre"
+        platenumber="" />
+    <Airline
+        Code="1I"
+        Name="Sierra Nevada Airlines"
+        platenumber="" />
+    <Airline
+        Code="1H"
+        Name="Siren-Travel"
+        platenumber="" />
+    <Airline
+        Code="1Q"
+        Name="Sirena"
+        platenumber="" />
+    <Airline
+        Code="1I"
+        Name="Sky Trek International Airlines"
+        platenumber="" />
+    <Airline
+        Code="1K"
+        Name="Southern Cross Distribution"
+        platenumber="" />
+    <Airline
+        Code="1K"
+        Name="Sutra"
+        platenumber="" />
+    <Airline
+        Code="2C"
+        Name="SNCF"
+        platenumber="" />
+    <Airline
+        Code="2S"
+        Name="Star Equatorial Airlines"
+        platenumber="" />
+    <Airline
+        Code="NK"
+        Name="Spirit Airlines"
+        platenumber="487" />
+    <Airline
+        Code="9R"
+        Name="SATENA"
+        platenumber="359" />
+    <Airline
+        Code="S0"
+        Name="Slok Air Gambia"
+        platenumber="" />
+    <Airline
+        Code="SO"
+        Name="Sosoliso Airlines"
+        platenumber="" />
+    <Airline
+        Code="1I"
+        Name="Sky Trek International Airlines"
+        platenumber="" />
+    <Airline
+        Code="SX"
+        Name="Skybus Airlines"
+        platenumber="509" />
+    <Airline
+        Code="RU"
+        Name="SkyKing Turks and Caicos Airways"
+        platenumber="" />
+    <Airline
+        Code="S3"
+        Name="Santa Barbara Airlines"
+        platenumber="" />
+    <Airline
+        Code="H2"
+        Name="Sky Airline"
+        platenumber="" />
+    <Airline
+        Code="OO"
+        Name="SkyWest"
+        platenumber="302" />
+    <Airline
+        Code="JZ"
+        Name="Skyways Express"
+        platenumber="752" />
+    <Airline
+        Code="BC"
+        Name="Skymark Airlines"
+        platenumber="657" />
+    <Airline
+        Code="LJ"
+        Name="Sierra National Airlines"
+        platenumber="" />
+    <Airline
+        Code="MI"
+        Name="SilkAir"
+        platenumber="" />
+    <Airline
+        Code="6Q"
+        Name="Slovak Airlines"
+        platenumber="" />
+    <Airline
+        Code="PY"
+        Name="Surinam Airways"
+        platenumber="192" />
+    <Airline
+        Code="8D"
+        Name="Servant Air"
+        platenumber="506" />
+    <Airline
+        Code="NB"
+        Name="Sterling Airlines"
+        platenumber="194" />
+    <Airline
+        Code="6J"
+        Name="Skynet Asia Airways"
+        platenumber="" />
+    <Airline
+        Code="IE"
+        Name="Solomon Airlines"
+        platenumber="193" />
+    <Airline
+        Code="6W"
+        Name="Saratov Aviation Division"
+        platenumber="" />
+    <Airline
+        Code="HZ"
+        Name="Sat Airlines"
+        platenumber="" />
+    <Airline
+        Code="S5"
+        Name="Shuttle America"
+        platenumber="" />
+    <Airline
+        Code="DV"
+        Name="Scat Air"
+        platenumber="" />
+    <Airline
+        Code="R1"
+        Name="Sirin"
+        platenumber="" />
+    <Airline
+        Code="S6"
+        Name="Star Air"
+        platenumber="" />
+    <Airline
+        Code="EQ"
+        Name="TAME"
+        platenumber="269" />
+    <Airline
+        Code="JJ"
+        Name="TAM Brazilian Airlines"
+        platenumber="" />
+    <Airline
+        Code="TP"
+        Name="TAP Portugal"
+        platenumber="047" />
+    <Airline
+        Code="TU"
+        Name="Tunisair"
+        platenumber="199" />
+    <Airline
+        Code="3V"
+        Name="TNT Airways"
+        platenumber="" />
+    <Airline
+        Code="M7"
+        Name="Tropical Airways"
+        platenumber="" />
+    <Airline
+        Code="T2"
+        Name="Thai Air Cargo"
+        platenumber="" />
+    <Airline
+        Code="FQ"
+        Name="Thomas Cook Airlines"
+        platenumber="276" />
+    <Airline
+        Code="MT"
+        Name="Thomas Cook Airlines"
+        platenumber="" />
+    <Airline
+        Code="TQ"
+        Name="Tandem Aero"
+        platenumber="540" />
+    <Airline
+        Code="L9"
+        Name="Teamline Air"
+        platenumber="" />
+    <Airline
+        Code="UE"
+        Name="Transeuropean Airlines"
+        platenumber="396" />
+    <Airline
+        Code="ZT"
+        Name="Titan Airways"
+        platenumber="" />
+    <Airline
+        Code="TR"
+        Name="Tiger Airways"
+        platenumber="653" />
+    <Airline
+        Code="TT"
+        Name="Tiger Airways Australia"
+        platenumber="720" />
+    <Airline
+        Code="TG"
+        Name="Thai Airways International"
+        platenumber="217" />
+    <Airline
+        Code="FD"
+        Name="Thai AirAsia"
+        platenumber="" />
+    <Airline
+        Code="TK"
+        Name="Turkish Airlines"
+        platenumber="235" />
+    <Airline
+        Code="T7"
+        Name="Twin Jet"
+        platenumber="" />
+    <Airline
+        Code="9I"
+        Name="Thai Sky Airlines"
+        platenumber="" />
+    <Airline
+        Code="TD"
+        Name="Tulip Air"
+        platenumber="" />
+    <Airline
+        Code="TL"
+        Name="Trans Mediterranean Airlines"
+        platenumber="270" />
+    <Airline
+        Code="GY"
+        Name="Tri-MG Intra Asia Airlines"
+        platenumber="206" />
+    <Airline
+        Code="3P"
+        Name="Tiara Air"
+        platenumber="" />
+    <Airline
+        Code="7T"
+        Name="Tobruk Air"
+        platenumber="" />
+    <Airline
+        Code="TI"
+        Name="Tol-Air Services"
+        platenumber="" />
+    <Airline
+        Code="BY"
+        Name="Thomsonfly"
+        platenumber="754" />
+    <Airline
+        Code="PM"
+        Name="Tropic Air"
+        platenumber="" />
+    <Airline
+        Code="FF"
+        Name="Tower Air"
+        platenumber="" />
+    <Airline
+        Code="QT"
+        Name="TAMPA"
+        platenumber="729" />
+    <Airline
+        Code="GE"
+        Name="TransAsia Airways"
+        platenumber="" />
+    <Airline
+        Code="HV"
+        Name="Transavia Holland"
+        platenumber="979" />
+    <Airline
+        Code="VR"
+        Name="TACV"
+        platenumber="696" />
+    <Airline
+        Code="T9"
+        Name="TransMeridian Airlines"
+        platenumber="" />
+    <Airline
+        Code="TH"
+        Name="Transmile Air Services"
+        platenumber="259" />
+    <Airline
+        Code="S5"
+        Name="Trast Aero"
+        platenumber="" />
+    <Airline
+        Code="9T"
+        Name="Transwest Air"
+        platenumber="909" />
+    <Airline
+        Code="UN"
+        Name="Transaero Airlines"
+        platenumber="" />
+    <Airline
+        Code="T9"
+        Name="Thai Star Airlines"
+        platenumber="" />
+    <Airline
+        Code="T5"
+        Name="Turkmenistan Airlines"
+        platenumber="542" />
+    <Airline
+        Code="UG"
+        Name="Tuninter"
+        platenumber="" />
+    <Airline
+        Code="T6"
+        Name="Tavrey Airlines"
+        platenumber="" />
+    <Airline
+        Code="QS"
+        Name="Travel Service"
+        platenumber="904" />
+    <Airline
+        Code="TW"
+        Name="Trans World Airlines"
+        platenumber="015" />
+    <Airline
+        Code="AL"
+        Name="Transaviaexport"
+        platenumber="" />
+    <Airline
+        Code="6B"
+        Name="TUIfly Nordic"
+        platenumber="" />
+    <Airline
+        Code="DT"
+        Name="TAAG Angola Airlines"
+        platenumber="118" />
+    <Airline
+        Code="SF"
+        Name="Tassili Airlines"
+        platenumber="" />
+    <Airline
+        Code="PZ"
+        Name="TAM Mercosur"
+        platenumber="705" />
+    <Airline
+        Code="AX"
+        Name="Trans States Airlines"
+        platenumber="386" />
+    <Airline
+        Code="1E"
+        Name="Travelsky Technology"
+        platenumber="" />
+    <Airline
+        Code="2H"
+        Name="Thalys"
+        platenumber="" />
+    <Airline
+        Code="1L"
+        Name="Open Skies Consultative Commission"
+        platenumber="" />
+    <Airline
+        Code="RO"
+        Name="Tarom"
+        platenumber="281" />
+    <Airline
+        Code="3T"
+        Name="Turan Air"
+        platenumber="" />
+    <Airline
+        Code="8R"
+        Name="TRIP Linhas A"
+        platenumber="393" />
+    <Airline
+        Code="OF"
+        Name="Transports et Travaux A"
+        platenumber="620" />
+    <Airline
+        Code="U5"
+        Name="USA3000 Airlines"
+        platenumber="" />
+    <Airline
+        Code="UA"
+        Name="United Airlines"
+        platenumber="016" />
+    <Airline
+        Code="U2"
+        Name="United Feeder Service"
+        platenumber="" />
+    <Airline
+        Code="U7"
+        Name="USA Jet Airlines"
+        platenumber="" />
+    <Airline
+        Code="U6"
+        Name="Ural Airlines"
+        platenumber="" />
+    <Airline
+        Code="UF"
+        Name="UM Airlines"
+        platenumber="" />
+    <Airline
+        Code="6Z"
+        Name="Ukrainian Cargo Airways"
+        platenumber="" />
+    <Airline
+        Code="5X"
+        Name="United Parcel Service"
+        platenumber="406" />
+    <Airline
+        Code="US"
+        Name="US Airways"
+        platenumber="037" />
+    <Airline
+        Code="UT"
+        Name="UTair Aviation"
+        platenumber="142" />
+    <Airline
+        Code="HY"
+        Name="Uzbekistan Airways"
+        platenumber="380" />
+    <Airline
+        Code="PS"
+        Name="Ukraine International Airlines"
+        platenumber="" />
+    <Airline
+        Code="UH"
+        Name="US Helicopter Corporation"
+        platenumber="" />
+    <Airline
+        Code="VA"
+        Name="V Australia Airlines"
+        platenumber="164" />
+    <Airline
+        Code="VF"
+        Name="Valuair"
+        platenumber="762" />
+    <Airline
+        Code="VC"
+        Name="Voyageur Airways"
+        platenumber="985" />
+    <Airline
+        Code="VN"
+        Name="Vietnam Airlines"
+        platenumber="738" />
+    <Airline
+        Code="NN"
+        Name="VIM Airlines"
+        platenumber="606" />
+    <Airline
+        Code="2R"
+        Name="VIA Rail Canada"
+        platenumber="" />
+    <Airline
+        Code="VA"
+        Name="Viasa"
+        platenumber="164" />
+    <Airline
+        Code="Y4"
+        Name="Volaris"
+        platenumber="" />
+    <Airline
+        Code="VI"
+        Name="Volga-Dnepr Airlines"
+        platenumber="381" />
+    <Airline
+        Code="VX"
+        Name="Virgin America"
+        platenumber="137" />
+    <Airline
+        Code="TV"
+        Name="Virgin Express"
+        platenumber="362" />
+    <Airline
+        Code="VK"
+        Name="Virgin Nigeria Airways"
+        platenumber="715" />
+    <Airline
+        Code="VS"
+        Name="Virgin Atlantic Airways"
+        platenumber="932" />
+    <Airline
+        Code="ZG"
+        Name="Viva Macau"
+        platenumber="" />
+    <Airline
+        Code="VE"
+        Name="Volare Airlines"
+        platenumber="128" />
+    <Airline
+        Code="VY"
+        Name="Vueling Airlines"
+        platenumber="" />
+    <Airline
+        Code="XF"
+        Name="Vladivostok Air"
+        platenumber="383" />
+    <Airline
+        Code="LC"
+        Name="Varig Log"
+        platenumber="122" />
+    <Airline
+        Code="VM"
+        Name="Viaggio Air"
+        platenumber="982" />
+    <Airline
+        Code="VA"
+        Name="Virgin Australia"
+        platenumber="164" />
+    <Airline
+        Code="DJ"
+        Name="Virgin Blue"
+        platenumber="611" />
+    <Airline
+        Code="RG"
+        Name="VRG Linhas Aereas"
+        platenumber="042" />
+    <Airline
+        Code="VP"
+        Name="VASP"
+        platenumber="343" />
+    <Airline
+        Code="VG"
+        Name="VLM Airlines"
+        platenumber="680" />
+    <Airline
+        Code="7W"
+        Name="Wayraper"
+        platenumber="" />
+    <Airline
+        Code="WJ"
+        Name="WebJet Linhas A"
+        platenumber="927" />
+    <Airline
+        Code="2W"
+        Name="Welcome Air"
+        platenumber="763" />
+    <Airline
+        Code="PT"
+        Name="West Air Sweden"
+        platenumber="" />
+    <Airline
+        Code="8O"
+        Name="West Coast Air"
+        platenumber="" />
+    <Airline
+        Code="WS"
+        Name="WestJet"
+        platenumber="573" />
+    <Airline
+        Code="WA"
+        Name="Western Airlines"
+        platenumber="797" />
+    <Airline
+        Code="CN"
+        Name="Westward Airways"
+        platenumber="" />
+    <Airline
+        Code="WF"
+        Name="Widerøe"
+        platenumber="701" />
+    <Airline
+        Code="IV"
+        Name="Wind Jet"
+        platenumber="" />
+    <Airline
+        Code="IW"
+        Name="Wings Air"
+        platenumber="646" />
+    <Airline
+        Code="K5"
+        Name="Wings of Alaska"
+        platenumber="" />
+    <Airline
+        Code="W6"
+        Name="Wizz Air"
+        platenumber="" />
+    <Airline
+        Code="8Z"
+        Name="Wizz Air Hungary"
+        platenumber="" />
+    <Airline
+        Code="WO"
+        Name="World Airways"
+        platenumber="" />
+    <Airline
+        Code="1P"
+        Name="Worldspan"
+        platenumber="523" />
+    <Airline
+        Code="8V"
+        Name="Wright Air Service"
+        platenumber="" />
+    <Airline
+        Code="SE"
+        Name="XL Airways France"
+        platenumber="397" />
+    <Airline
+        Code="MF"
+        Name="Xiamen Airlines"
+        platenumber="" />
+    <Airline
+        Code="XP"
+        Name="Xtra Airways"
+        platenumber="" />
+    <Airline
+        Code="YL"
+        Name="Yamal Airlines"
+        platenumber="443" />
+    <Airline
+        Code="Y8"
+        Name="Yangtze River Express"
+        platenumber="" />
+    <Airline
+        Code="IY"
+        Name="Yemenia"
+        platenumber="635" />
+    <Airline
+        Code="Q3"
+        Name="Zambian Airways"
+        platenumber="" />
+    <Airline
+        Code="3J"
+        Name="Zip"
+        platenumber="188" />
+    <Airline
+        Code="C4"
+        Name="Zimex Aviation"
+        platenumber="" />
+    <Airline
+        Code="Z4"
+        Name="Zoom Airlines"
+        platenumber="" />
+    <Airline
+        Code="UK"
+        Name="buzz"
+        platenumber="130" />
+    <Airline
+        Code="8Q"
+        Name="Maldivian Air Taxi"
+        platenumber="" />
+    <Airline
+        Code="Y0"
+        Name="Yellow Air Taxi"
+        platenumber="" />
+    <Airline
+        Code="VJ"
+        Name="Royal Air Cambodge"
+        platenumber="900" />
+    <Airline
+        Code="6T"
+        Name="Air Mandalay"
+        platenumber="" />
+    <Airline
+        Code="SH"
+        Name="TAN-SAHSA"
+        platenumber="274" />
+    <Airline
+        Code="BX"
+        Name="Air Busan"
+        platenumber="970" />
+    <Airline
+        Code="TB"
+        Name="TUI Airlines Belgium"
+        platenumber="857" />
+    <Airline
+        Code="XW"
+        Name="Sky Express"
+        platenumber="360" />
+    <Airline
+        Code="BU"
+        Name="Braathens"
+        platenumber="154" />
+    <Airline
+        Code="GH"
+        Name="Globus"
+        platenumber="237" />
+    <Airline
+        Code="9Y"
+        Name="Air Kazakhstan"
+        platenumber="" />
+    <Airline
+        Code="JD"
+        Name="Japan Air System"
+        platenumber="234" />
+    <Airline
+        Code="ZQ"
+        Name="Annsett New Zealand (NZA)"
+        platenumber="941" />
+    <Airline
+        Code="DS"
+        Name="EasyJet (DS)"
+        platenumber="223" />
+    <Airline
+        Code="2I"
+        Name="Star Peru (2I)"
+        platenumber="" />
+    <Airline
+        Code="KW"
+        Name="Carnival Air Lines"
+        platenumber="521" />
+    <Airline
+        Code="4H"
+        Name="United Airways"
+        platenumber="" />
+    <Airline
+        Code="M8"
+        Name="Trans Maldivian Airways"
+        platenumber="" />
+    <Airline
+        Code="5H"
+        Name="Fly540"
+        platenumber="" />
+    <Airline
+        Code="TO"
+        Name="Transavia France"
+        platenumber="751" />
+    <Airline
+        Code="WP"
+        Name="Island Air (WP)"
+        platenumber="347" />
+    <Airline
+        Code="OG"
+        Name="1-2-go"
+        platenumber="937" />
+    <Airline
+        Code="B7"
+        Name="Uni Air"
+        platenumber="" />
+    <Airline
+        Code="YD"
+        Name="Gomelavia"
+        platenumber="947" />
+    <Airline
+        Code="WZ"
+        Name="Red Wings"
+        platenumber="758" />
+    <Airline
+        Code="11"
+        Name="TUIfly (X3)"
+        platenumber="" />
+    <Airline
+        Code="FU"
+        Name="Felix Airways"
+        platenumber="659" />
+    <Airline
+        Code="K1"
+        Name="Kostromskie avialinii"
+        platenumber="" />
+    <Airline
+        Code="XX"
+        Name="Greenfly"
+        platenumber="624" />
+    <Airline
+        Code="7J"
+        Name="Tajik Air"
+        platenumber="213" />
+    <Airline
+        Code="TM"
+        Name="Air Mozambique"
+        platenumber="068" />
+    <Airline
+        Code="--"
+        Name="ELK Airways"
+        platenumber="" />
+    <Airline
+        Code="GY"
+        Name="Gabon Airlines"
+        platenumber="206" />
+    <Airline
+        Code="ML"
+        Name="Maldivo Airlines"
+        platenumber="557" />
+    <Airline
+        Code="VH"
+        Name="Virgin Pacific"
+        platenumber="226" />
+    <Airline
+        Code="Z2"
+        Name="Zest Air"
+        platenumber="" />
+    <Airline
+        Code="HK"
+        Name="Yangon Airways"
+        platenumber="" />
+    <Airline
+        Code="IJ"
+        Name="Transport Aérien Transrégional"
+        platenumber="936" />
+    <Airline
+        Code="N4"
+        Name="Minerva Airlines"
+        platenumber="" />
+    <Airline
+        Code="ZE"
+        Name="Eastar Jet"
+        platenumber="" />
+    <Airline
+        Code="LJ"
+        Name="Jin Air"
+        platenumber="" />
+    <Airline
+        Code="SH"
+        Name="Aéris (Priv)"
+        platenumber="274" />
+    <Airline
+        Code="3O"
+        Name="Air Arabia Maroc"
+        platenumber="" />
+    <Airline
+        Code="B1"
+        Name="Baltic Air lines"
+        platenumber="" />
+    <Airline
+        Code="YC"
+        Name="Ciel Canadien"
+        platenumber="060" />
+    <Airline
+        Code="CN"
+        Name="Canadian National Airways"
+        platenumber="" />
+    <Airline
+        Code="FA"
+        Name="Epic Holiday"
+        platenumber="" />
+    <Airline
+        Code="3I"
+        Name="Air Comet Chile"
+        platenumber="" />
+    <Airline
+        Code="-."
+        Name="Nazca"
+        platenumber="" />
+    <Airline
+        Code="DN"
+        Name="Voronezhskie Airlanes"
+        platenumber="" />
+    <Airline
+        Code="L8"
+        Name="Line Blue"
+        platenumber="" />
+    <Airline
+        Code="BU"
+        Name="Blue Sky America"
+        platenumber="154" />
+    <Airline
+        Code="XS"
+        Name="Texas Spirit"
+        platenumber="950" />
+    <Airline
+        Code="IL"
+        Name="Illinois Airways"
+        platenumber="" />
+    <Airline
+        Code="SZ"
+        Name="Salzburg arrows"
+        platenumber="785" />
+    <Airline
+        Code="TQ"
+        Name="Texas Wings"
+        platenumber="540" />
+    <Airline
+        Code="KT"
+        Name="California Western"
+        platenumber="" />
+    <Airline
+        Code="DH"
+        Name="Dennis Sky"
+        platenumber="438" />
+    <Airline
+        Code="ZZ"
+        Name="Zz"
+        platenumber="" />
+    <Airline
+        Code="A1"
+        Name="Atifly"
+        platenumber="" />
+    <Airline
+        Code="UK"
+        Name="Air UK"
+        platenumber="130" />
+    <Airline
+        Code="CB"
+        Name="Suckling Airways"
+        platenumber="969" />
+    <Airline
+        Code="RY"
+        Name="Reno Sky"
+        platenumber="178" />
+    <Airline
+        Code="99"
+        Name="Ciao Air"
+        platenumber="" />
+    <Airline
+        Code="VB"
+        Name="Birmingham European"
+        platenumber="702" />
+    <Airline
+        Code="5P"
+        Name="Pal airlines"
+        platenumber="697" />
+    <Airline
+        Code="C1"
+        Name="CanXpress"
+        platenumber="" />
+    <Airline
+        Code="V5"
+        Name="Danube Wings (V5)"
+        platenumber="" />
+    <Airline
+        Code="SH"
+        Name="Sharp Airlines"
+        platenumber="274" />
+    <Airline
+        Code="C2"
+        Name="CanXplorer"
+        platenumber="" />
+    <Airline
+        Code="QA"
+        Name="Click (Mexicana)"
+        platenumber="723" />
+    <Airline
+        Code="W1"
+        Name="World Experience Airline"
+        platenumber="" />
+    <Airline
+        Code="J4"
+        Name="ALAK"
+        platenumber="" />
+    <Airline
+        Code="E9"
+        Name="AJT Air International"
+        platenumber="" />
+    <Airline
+        Code="3E"
+        Name="Air Choice One"
+        platenumber="" />
+    <Airline
+        Code="KN"
+        Name="China United"
+        platenumber="876" />
+    <Airline
+        Code="ZQ"
+        Name="Locair"
+        platenumber="941" />
+    <Airline
+        Code="4Q"
+        Name="Safi Airlines"
+        platenumber="" />
+    <Airline
+        Code="K5"
+        Name="SeaPort Airlines"
+        platenumber="" />
+    <Airline
+        Code="S6"
+        Name="Salmon Air"
+        platenumber="" />
+    <Airline
+        Code="IL"
+        Name="Fly Illi"
+        platenumber="" />
+    <Airline
+        Code="01"
+        Name="Bobb Air Freight"
+        platenumber="" />
+    <Airline
+        Code="V9"
+        Name="Star1 Airlines"
+        platenumber="" />
+    <Airline
+        Code="6D"
+        Name="Pelita"
+        platenumber="" />
+    <Airline
+        Code="E8"
+        Name="Alpi Eagles (E8)"
+        platenumber="" />
+    <Airline
+        Code="J5"
+        Name="Alaska Seaplane Service"
+        platenumber="" />
+    <Airline
+        Code="T8"
+        Name="TAN"
+        platenumber="" />
+    <Airline
+        Code="I6"
+        Name="MexicanaLink"
+        platenumber="" />
+    <Airline
+        Code="IP"
+        Name="Island Spirit"
+        platenumber="" />
+    <Airline
+        Code="T0"
+        Name="TACA Peru"
+        platenumber="" />
+    <Airline
+        Code="7Q"
+        Name="Pan Am World Airways Dominicana"
+        platenumber="" />
+    <Airline
+        Code="PF"
+        Name="Primera Air"
+        platenumber="925" />
+    <Airline
+        Code="3S"
+        Name="Air Antilles Express"
+        platenumber="" />
+    <Airline
+        Code="P7"
+        Name="Regional Paraguaya"
+        platenumber="" />
+    <Airline
+        Code="V6"
+        Name="VIP Ecuador"
+        platenumber="" />
+    <Airline
+        Code="P9"
+        Name="Peruvian Airlines"
+        platenumber="" />
+    <Airline
+        Code="??"
+        Name="Polar Airlines"
+        platenumber="" />
+    <Airline
+        Code="OC"
+        Name="Catovair"
+        platenumber="938" />
+    <Airline
+        Code="7Z"
+        Name="Halcyonair"
+        platenumber="" />
+    <Airline
+        Code="4P"
+        Name="Business Aviation"
+        platenumber="906" />
+    <Airline
+        Code="E9"
+        Name="Compagnie Africaine d\&apos;Aviation"
+        platenumber="" />
+    <Airline
+        Code="K8"
+        Name="Zambia Skyways"
+        platenumber="" />
+    <Airline
+        Code="UJ"
+        Name="AlMasria Universal Airlines"
+        platenumber="" />
+    <Airline
+        Code="6Y"
+        Name="SmartLynx Airlines"
+        platenumber="" />
+    <Airline
+        Code="K7"
+        Name="KoralBlue Airlines"
+        platenumber="" />
+    <Airline
+        Code="E4"
+        Name="Elysian Airlines"
+        platenumber="" />
+    <Airline
+        Code="HT"
+        Name="Hellenic Imperial Airways"
+        platenumber="095" />
+    <Airline
+        Code="WD"
+        Name="Amsterdam Airlines"
+        platenumber="851" />
+    <Airline
+        Code="Q9"
+        Name="Arik Niger"
+        platenumber="" />
+    <Airline
+        Code="DA"
+        Name="Dana Air"
+        platenumber="062" />
+    <Airline
+        Code="8F"
+        Name="STP Airways"
+        platenumber="442" />
+    <Airline
+        Code="7Y"
+        Name="Med Airways"
+        platenumber="" />
+    <Airline
+        Code="UQ"
+        Name="Skyjet Airlines"
+        platenumber="" />
+    <Airline
+        Code="G6"
+        Name="Air Volga"
+        platenumber="" />
+    <Airline
+        Code="RL"
+        Name="Royal Falcon"
+        platenumber="127" />
+    <Airline
+        Code="4L"
+        Name="Euroline"
+        platenumber="248" />
+    <Airline
+        Code="WG"
+        Name="Worldways"
+        platenumber="" />
+    <Airline
+        Code="ZF"
+        Name="Athens Airways"
+        platenumber="" />
+    <Airline
+        Code="VQ"
+        Name="Viking Hellas"
+        platenumber="" />
+    <Airline
+        Code="DZ"
+        Name="Starline.kz"
+        platenumber="275" />
+    <Airline
+        Code="EH"
+        Name="Euro Harmony"
+        platenumber="156" />
+    <Airline
+        Code="L7"
+        Name="Lugansk Airlines"
+        platenumber="" />
+    <Airline
+        Code="6P"
+        Name="Gryphon Airlines"
+        platenumber="" />
+    <Airline
+        Code="GP"
+        Name="Gadair European Airlines"
+        platenumber="625" />
+    <Airline
+        Code="SM"
+        Name="Spirit of Manila Airlines"
+        platenumber="731" />
+    <Airline
+        Code="OQ"
+        Name="Chongqing Airlines"
+        platenumber="503" />
+    <Airline
+        Code="PN"
+        Name="West Air China"
+        platenumber="" />
+    <Airline
+        Code="IH"
+        Name="Falcon Air (IH)"
+        platenumber="759" />
+    <Airline
+        Code="C3"
+        Name="QatXpress"
+        platenumber="" />
+    <Airline
+        Code="1C"
+        Name="OneChina"
+        platenumber="" />
+    <Airline
+        Code="Y7"
+        Name="NordStar Airlines"
+        platenumber="" />
+    <Airline
+        Code="JR"
+        Name="Joy Air"
+        platenumber="078" />
+    <Airline
+        Code="CD"
+        Name="Air India Regional"
+        platenumber="" />
+    <Airline
+        Code="9H"
+        Name="MDLR Airlines"
+        platenumber="" />
+    <Airline
+        Code="Q2"
+        Name="Maldivian"
+        platenumber="" />
+    <Airline
+        Code="XN"
+        Name="Xpressair"
+        platenumber="" />
+    <Airline
+        Code="VC"
+        Name="Strategic Airlines"
+        platenumber="985" />
+    <Airline
+        Code="NA"
+        Name="Al-Naser Airlines"
+        platenumber="" />
+    <Airline
+        Code="JH"
+        Name="Fuji Dream Airlines"
+        platenumber="" />
+    <Airline
+        Code="5E"
+        Name="SGA Airlines"
+        platenumber="" />
+    <Airline
+        Code="F8"
+        Name="Air2there"
+        platenumber="" />
+    <Airline
+        Code="AO"
+        Name="Avianova (Russia)"
+        platenumber="110" />
+    <Airline
+        Code="PA"
+        Name="Parmiss Airlines (IPV)"
+        platenumber="" />
+    <Airline
+        Code="ES"
+        Name="EuropeSky"
+        platenumber="" />
+    <Airline
+        Code="GB"
+        Name="BRAZIL AIR"
+        platenumber="832" />
+    <Airline
+        Code="MR"
+        Name="Homer Air"
+        platenumber="174" />
+    <Airline
+        Code="??"
+        Name="Court Line"
+        platenumber="" />
+    <Airline
+        Code="??"
+        Name="South West Africa Territory Force"
+        platenumber="" />
+    <Airline
+        Code="++"
+        Name="Lombards Air"
+        platenumber="" />
+    <Airline
+        Code="-+"
+        Name="U.S. Air"
+        platenumber="" />
+    <Airline
+        Code="GM"
+        Name="Flitestar"
+        platenumber="805" />
+    <Airline
+        Code="\&apos;"
+        Name="Jayrow"
+        platenumber="" />
+    <Airline
+        Code="::"
+        Name="Llloyd Helicopters"
+        platenumber="" />
+    <Airline
+        Code=";;"
+        Name="Wilderness Air"
+        platenumber="" />
+    <Airline
+        Code="^^"
+        Name="Whitaker Air"
+        platenumber="" />
+    <Airline
+        Code="WQ"
+        Name="PanAm World Airways"
+        platenumber="842" />
+    <Airline
+        Code="YY"
+        Name="Virginwings"
+        platenumber="" />
+    <Airline
+        Code="KY"
+        Name="KSY"
+        platenumber="914" />
+    <Airline
+        Code="BQ"
+        Name="Buquebus Líneas Aéreas"
+        platenumber="926" />
+    <Airline
+        Code="CQ"
+        Name="SOCHI AIR"
+        platenumber="" />
+    <Airline
+        Code="WU"
+        Name="Wizz Air Ukraine"
+        platenumber="" />
+    <Airline
+        Code="47"
+        Name="88"
+        platenumber="" />
+    <Airline
+        Code="LQ"
+        Name="LCM AIRLINES"
+        platenumber="" />
+    <Airline
+        Code="BZ"
+        Name="Aero Brazil"
+        platenumber="" />
+    <Airline
+        Code="K6"
+        Name="Cambodia Angkor Air (K6)"
+        platenumber="" />
+    <Airline
+        Code="D5"
+        Name="Skyline nepc"
+        platenumber="" />
+    <Airline
+        Code="H3"
+        Name="THREE"
+        platenumber="" />
+    <Airline
+        Code="69"
+        Name="Royal European Airlines"
+        platenumber="" />
+    <Airline
+        Code="&amp;T"
+        Name="Tom\&apos;s &amp; co airliners"
+        platenumber="" />
+    <Airline
+        Code="AD"
+        Name="Azul"
+        platenumber="504" />
+    <Airline
+        Code="PQ"
+        Name="LSM Airlines"
+        platenumber="561" />
+    <Airline
+        Code="C4"
+        Name="LionXpress"
+        platenumber="" />
+    <Airline
+        Code="X1"
+        Name="Nik Airways"
+        platenumber="" />
+    <Airline
+        Code="GK"
+        Name="Genesis"
+        platenumber="097" />
+    <Airline
+        Code="XZ"
+        Name="Congo Express"
+        platenumber="" />
+    <Airline
+        Code="FZ"
+        Name="Fly Dubai"
+        platenumber="" />
+    <Airline
+        Code="D1"
+        Name="Domenican Airlines"
+        platenumber="" />
+    <Airline
+        Code="9A"
+        Name="Air Atlantic"
+        platenumber="" />
+    <Airline
+        Code="CR"
+        Name="Air Ops"
+        platenumber="" />
+    <Airline
+        Code="JY"
+        Name="Aereonautica militare"
+        platenumber="267" />
+    <Airline
+        Code="YZ"
+        Name="LSM AIRLINES "
+        platenumber="241" />
+    <Airline
+        Code="YP"
+        Name="Aero Lloyd (YP)"
+        platenumber="633" />
+    <Airline
+        Code="UR"
+        Name="UTair-Express"
+        platenumber="" />
+    <Airline
+        Code="G5"
+        Name="Huaxia"
+        platenumber="" />
+    <Airline
+        Code="ZP"
+        Name="Zabaykalskii Airlines"
+        platenumber="315" />
+    <Airline
+        Code="M4"
+        Name="Marysya Airlines"
+        platenumber="" />
+    <Airline
+        Code="N1"
+        Name="N1"
+        platenumber="" />
+    <Airline
+        Code="4Z"
+        Name="Airlink (SAA)"
+        platenumber="" />
+    <Airline
+        Code="3B"
+        Name="JobAir"
+        platenumber="433" />
+    <Airline
+        Code="OD"
+        Name="Zuliana de Aviacion"
+        platenumber="" />
+    <Airline
+        Code="BZ"
+        Name="Black Stallion Airways"
+        platenumber="" />
+    <Airline
+        Code="GM"
+        Name="German International Air Lines"
+        platenumber="805" />
+    <Airline
+        Code="TB"
+        Name="TrasBrasil"
+        platenumber="857" />
+    <Airline
+        Code="TH"
+        Name="TransBrasil Airlines"
+        platenumber="259" />
+    <Airline
+        Code="9C"
+        Name="China SSS"
+        platenumber="786" />
+    <Airline
+        Code="NJ"
+        Name="Nihon.jet"
+        platenumber="" />
+    <Airline
+        Code="TJ"
+        Name="Transportes Aéreos Nacionales de Selva"
+        platenumber="667" />
+    <Airline
+        Code="P8"
+        Name="Air Mekong"
+        platenumber="" />
+    <Airline
+        Code="H3"
+        Name="Harbour Air (Priv)"
+        platenumber="" />
+    <Airline
+        Code="HH"
+        Name="Air Hamburg (AHO)"
+        platenumber="089" />
+    <Airline
+        Code="Z6"
+        Name="ZABAIKAL AIRLINES"
+        platenumber="" />
+    <Airline
+        Code="TI"
+        Name="TransHolding"
+        platenumber="" />
+    <Airline
+        Code="YT"
+        Name="Yeti Airways"
+        platenumber="674" />
+    <Airline
+        Code="Y1"
+        Name="Yellowstone Club Private Shuttle"
+        platenumber="" />
+    <Airline
+        Code="NS"
+        Name="Caucasus Airlines"
+        platenumber="104" />
+    <Airline
+        Code="S1"
+        Name="Serbian Airlines"
+        platenumber="" />
+    <Airline
+        Code="WM"
+        Name="Windward Islands Airways"
+        platenumber="295" />
+    <Airline
+        Code="YO"
+        Name="TransHolding System"
+        platenumber="747" />
+    <Airline
+        Code="CB"
+        Name="CCML Airlines"
+        platenumber="969" />
+    <Airline
+        Code="SF"
+        Name="Air Charter International"
+        platenumber="" />
+    <Airline
+        Code="F1"
+        Name="Fly Brasil"
+        platenumber="" />
+    <Airline
+        Code="1F"
+        Name="CB Airways UK ( Interliging Flights )"
+        platenumber="" />
+    <Airline
+        Code="3F"
+        Name="Fly Colombia ( Interliging Flights )"
+        platenumber="815" />
+    <Airline
+        Code="T6"
+        Name="Trans Pas Air"
+        platenumber="" />
+    <Airline
+        Code="??"
+        Name="KMV"
+        platenumber="" />
+    <Airline
+        Code="HC"
+        Name="Himalayan Airlines"
+        platenumber="" />
+    <Airline
+        Code="G1"
+        Name="Indya Airline Group"
+        platenumber="" />
+    <Airline
+        Code="WG"
+        Name="Sunwing"
+        platenumber="" />
+    <Airline
+        Code="ZX"
+        Name="Japan Regio"
+        platenumber="742" />
+    <Airline
+        Code="N0"
+        Name="Norte Lineas Aereas"
+        platenumber="" />
+    <Airline
+        Code="W7"
+        Name="Austral Brasil"
+        platenumber="" />
+    <Airline
+        Code="H9"
+        Name="PEGASUS AIRLINES-"
+        platenumber="" />
+    <Airline
+        Code="IJ"
+        Name="AirLiberté"
+        platenumber="936" />
+    <Airline
+        Code="QC"
+        Name="Camair-co"
+        platenumber="207" />
+    <Airline
+        Code="N6"
+        Name="Aerocontinente (Priv)"
+        platenumber="" />
+    <Airline
+        Code="RS"
+        Name="Sky Regional"
+        platenumber="" />
+    <Airline
+        Code="YI"
+        Name="TUR Avrupa Hava YollarÄ±"
+        platenumber="806" />
+    <Airline
+        Code="II"
+        Name="LSM International "
+        platenumber="" />
+    <Airline
+        Code="BU"
+        Name="Baikotovitchestrian Airlines "
+        platenumber="154" />
+    <Airline
+        Code="L4"
+        Name="Luchsh Airlines "
+        platenumber="" />
+    <Airline
+        Code="Z7"
+        Name="Zimbabwean Airlines"
+        platenumber="" />
+    <Airline
+        Code="6U"
+        Name="Air Cargo Germany"
+        platenumber="" />
+    <Airline
+        Code="7M"
+        Name="Mongolian International Air Lines "
+        platenumber="" />
+    <Airline
+        Code="2D"
+        Name="Alaniya Airlines"
+        platenumber="551" />
+    <Airline
+        Code="TW"
+        Name="Tway Airlines"
+        platenumber="015" />
+    <Airline
+        Code="HI"
+        Name="Papillon Grand Canyon Helicopters"
+        platenumber="563" />
+    <Airline
+        Code="JX"
+        Name="Jusur airways"
+        platenumber="691" />
+    <Airline
+        Code="XB"
+        Name="NEXT Brasil"
+        platenumber="" />
+    <Airline
+        Code="W4"
+        Name="AeroWorld "
+        platenumber="" />
+    <Airline
+        Code="KH"
+        Name="Cook Island Air"
+        platenumber="" />
+    <Airline
+        Code="E8"
+        Name="US Africa Airways"
+        platenumber="" />
+    <Airline
+        Code="GN"
+        Name="GNB Linhas Aereas"
+        platenumber="185" />
+    <Airline
+        Code="E1"
+        Name="Usa Sky Cargo"
+        platenumber="" />
+    <Airline
+        Code="HN"
+        Name="Hankook Airline"
+        platenumber="195" />
+    <Airline
+        Code="RR"
+        Name="Red Jet America"
+        platenumber="" />
+    <Airline
+        Code="Z7"
+        Name="REDjet"
+        platenumber="" />
+    <Airline
+        Code="1H"
+        Name="Hellenic Airways"
+        platenumber="" />
+    <Airline
+        Code="PT"
+        Name="Red Jet Andes"
+        platenumber="" />
+    <Airline
+        Code="QY"
+        Name="Red Jet Canada"
+        platenumber="" />
+    <Airline
+        Code="4X"
+        Name="Red Jet Mexico"
+        platenumber="534" />
+    <Airline
+        Code="Y8"
+        Name="Marusya Airways"
+        platenumber="" />
+    <Airline
+        Code="7H"
+        Name="Era Alaska"
+        platenumber="808" />
+    <Airline
+        Code="R8"
+        Name="AirRussia"
+        platenumber="" />
+    <Airline
+        Code="H1"
+        Name="Hankook Air US"
+        platenumber="" />
+    <Airline
+        Code="D5"
+        Name="NEPC Airlines"
+        platenumber="" />
+    <Airline
+        Code="10"
+        Name="Canadian World"
+        platenumber="" />
+    <Airline
+        Code="H5"
+        Name="I-Fly"
+        platenumber="" />
+    <Airline
+        Code="IJ"
+        Name="T.A.T"
+        platenumber="936" />
+    <Airline
+        Code="DN"
+        Name="Alinord"
+        platenumber="" />
+    <Airline
+        Code="VB"
+        Name="Pacific Express"
+        platenumber="702" />
+    <Airline
+        Code="KT"
+        Name="VickJet"
+        platenumber="" />
+    <Airline
+        Code="XV"
+        Name="BVI Airways"
+        platenumber="" />
+    <Airline
+        Code="SO"
+        Name="Salsa d\&apos;Haiti"
+        platenumber="" />
+    <Airline
+        Code="ZJ"
+        Name="Zambezi Airlines (ZMA)"
+        platenumber="" />
+    <Airline
+        Code="YQ"
+        Name="Polet Airlines (Priv)"
+        platenumber="" />
+    <Airline
+        Code="T1"
+        Name="TROPICAL LINHAS AEREAS"
+        platenumber="" />
+    <Airline
+        Code="12"
+        Name="12 North"
+        platenumber="" />
+    <Airline
+        Code="L6"
+        Name="Mauritania Airlines International"
+        platenumber="" />
+    <Airline
+        Code="6F"
+        Name="MAT Airways"
+        platenumber="" />
+    <Airline
+        Code="AW"
+        Name="Asian Wings Airways"
+        platenumber="291" />
+    <Airline
+        Code="E5"
+        Name="Air Arabia Egypt"
+        platenumber="" />
+    <Airline
+        Code="CT"
+        Name="Alitalia Cityliner"
+        platenumber="" />
+    <Airline
+        Code="OI"
+        Name="Orchid Airlines"
+        platenumber="764" />
+    <Airline
+        Code="Y5"
+        Name="Asia Wings"
+        platenumber="" />
+    <Airline
+        Code="XR"
+        Name="Skywest Australia"
+        platenumber="" />
+    <Airline
+        Code="NP"
+        Name="Nile Air"
+        platenumber="" />
+    <Airline
+        Code="DN"
+        Name="Senegal Airlines"
+        platenumber="" />
+    <Airline
+        Code="6I"
+        Name="Fly 6ix"
+        platenumber="" />
+    <Airline
+        Code="S9"
+        Name="Starbow Airlines"
+        platenumber="" />
+    <Airline
+        Code="0X"
+        Name="Copenhagen Express"
+        platenumber="" />
+    <Airline
+        Code="8B"
+        Name="BusinessAir"
+        platenumber="" />
+    <Airline
+        Code="YR"
+        Name="SENIC AIRLINES"
+        platenumber="398" />
+    <Airline
+        Code="C7"
+        Name="Sky Wing Pacific"
+        platenumber="" />
+    <Airline
+        Code="PP"
+        Name="Air Indus"
+        platenumber="" />
+    <Airline
+        Code="07"
+        Name="Samurai Airlines"
+        platenumber="" />
+    <Airline
+        Code="00"
+        Name="AirOne Continental"
+        platenumber="" />
+    <Airline
+        Code="U1"
+        Name="AirOne Polska"
+        platenumber="" />
+    <Airline
+        Code="MM"
+        Name="Peach Aviation"
+        platenumber="334" />
+    <Airline
+        Code="U1"
+        Name="Aviabus"
+        platenumber="" />
+    <Airline
+        Code="DF"
+        Name="Michael Airlines"
+        platenumber="" />
+    <Airline
+        Code="ZC"
+        Name="Korongo Airlines"
+        platenumber="" />
+    <Airline
+        Code="I5"
+        Name="Indonesia Sky"
+        platenumber="" />
+    <Airline
+        Code="9P"
+        Name="Pelangi "
+        platenumber="" />
+    <Airline
+        Code="B0"
+        Name="Aws express"
+        platenumber="" />
+    <Airline
+        Code="76"
+        Name="Southjet"
+        platenumber="" />
+    <Airline
+        Code="77"
+        Name="Southjet connect"
+        platenumber="" />
+    <Airline
+        Code="KP"
+        Name="Air Cape"
+        platenumber="103" />
+    <Airline
+        Code="78"
+        Name="Southjet cargo"
+        platenumber="" />
+    <Airline
+        Code="I2"
+        Name="Iberia Express"
+        platenumber="" />
+    <Airline
+        Code="4O"
+        Name="Interjet (ABC Aerolineas)"
+        platenumber="" />
+    <Airline
+        Code="OG"
+        Name="AirOnix"
+        platenumber="937" />
+    <Airline
+        Code="NJ"
+        Name="Nordic Global Airlines"
+        platenumber="" />
+    <Airline
+        Code="TZ"
+        Name="Scoot"
+        platenumber="366" />
+    <Airline
+        Code="SX"
+        Name="Starling Airlines Spain"
+        platenumber="509" />
+    <Airline
+        Code="5K"
+        Name="Hi Fly (5K)"
+        platenumber="" />
+    <Airline
+        Code="WH"
+        Name="China Northwest Airlines (WH)"
+        platenumber="783" />
+    <Airline
+        Code="ZN"
+        Name="Zenith International Airline"
+        platenumber="" />
+    <Airline
+        Code="O1"
+        Name="Orbit Airlines Azerbaijan"
+        platenumber="" />
+    <Airline
+        Code="A6"
+        Name="Air Alps Aviation (A6)"
+        platenumber="" />
+    <Airline
+        Code="P4"
+        Name="Patriot Airways"
+        platenumber="" />
+    <Airline
+        Code="V2"
+        Name="Vision Airlines (V2)"
+        platenumber="" />
+    <Airline
+        Code="C8"
+        Name="Chicago Express (C8)"
+        platenumber="" />
+    <Airline
+        Code="5Q"
+        Name="BQB Lineas Aereas"
+        platenumber="" />
+    <Airline
+        Code="YE"
+        Name="Yellowtail"
+        platenumber="" />
+    <Airline
+        Code="KG"
+        Name="Royal Airways"
+        platenumber="" />
+    <Airline
+        Code="FH"
+        Name="FlyHigh Airlines Ireland (FH)"
+        platenumber="" />
+    <Airline
+        Code="2D"
+        Name="Aero VIP (2D)"
+        platenumber="551" />
+    <Airline
+        Code="YH"
+        Name="Yangon Airways Ltd."
+        platenumber="" />
+    <Airline
+        Code="TJ"
+        Name="T.J. Air"
+        platenumber="667" />
+    <Airline
+        Code="SX"
+        Name="SkyWork Airlines "
+        platenumber="509" />
+    <Airline
+        Code="J7"
+        Name="ValueJet"
+        platenumber="" />
+    <Airline
+        Code="W2"
+        Name="Maastricht Airlines"
+        platenumber="" />
+    <Airline
+        Code="WL"
+        Name="CheapFlyingInternational"
+        platenumber="" />
+    <Airline
+        Code="E6"
+        Name="Aviaexpresscruise"
+        platenumber="" />
+    <Airline
+        Code="24"
+        Name="Euro Jet"
+        platenumber="" />
+    <Airline
+        Code="00"
+        Name="AirOne Atlantic"
+        platenumber="" />
+    <Airline
+        Code="HQ"
+        Name="HQ- Business Express"
+        platenumber="357" />
+    <Airline
+        Code="R1"
+        Name="Royal Southern Airlines."
+        platenumber="" />
+    <Airline
+        Code="Q3"
+        Name="SOCHI AIR CHATER"
+        platenumber="" />
+    <Airline
+        Code="J7"
+        Name="Denim Air "
+        platenumber="" />
+    <Airline
+        Code="OE"
+        Name="WestAir"
+        platenumber="460" />
+    <Airline
+        Code="OE"
+        Name="WestAir Airlines"
+        platenumber="460" />
+    <Airline
+        Code="OE"
+        Name="WestAir Airlines "
+        platenumber="460" />
+    <Airline
+        Code="NO"
+        Name="North Pacific Airlines"
+        platenumber="" />
+    <Airline
+        Code="OD"
+        Name="Malindo Air"
+        platenumber="" />
+    <Airline
+        Code="9F"
+        Name="Tramm Airlines"
+        platenumber="" />
+    <Airline
+        Code="GC"
+        Name="Lina Congo"
+        platenumber="246" />
+    <Airline
+        Code="Z9"
+        Name="Flightlink Tanzania"
+        platenumber="" />
+    <Airline
+        Code="I8"
+        Name="IzAvia"
+        platenumber="" />
+    <Airline
+        Code="3V"
+        Name="3 Valleys Airlines"
+        platenumber="" />
+    <Airline
+        Code="M1"
+        Name="Maryland Air"
+        platenumber="" />
+    <Airline
+        Code="7I"
+        Name="Insel Air (7I/INC) (Priv)"
+        platenumber="" />
+    <Airline
+        Code="5Z"
+        Name="VivaColombia"
+        platenumber="" />
+    <Airline
+        Code="ZM"
+        Name="Apache Air"
+        platenumber="" />
+    <Airline
+        Code="M2"
+        Name="MHS Aviation GmbH"
+        platenumber="" />
+    <Airline
+        Code="NR"
+        Name="Jettor Airlines"
+        platenumber="066" />
+    <Airline
+        Code="GD"
+        Name="GoDutch"
+        platenumber="838" />
+    <Airline
+        Code="SL"
+        Name="Thai Lion Air"
+        platenumber="293" />
+    <Airline
+        Code="DW"
+        Name="Deutsche Luftverkehrsgesellschaft"
+        platenumber="683" />
+    <Airline
+        Code="N8"
+        Name="National Air Cargo"
+        platenumber="" />
+    <Airline
+        Code="13"
+        Name="Eastern Atlantic Virtual Airlines"
+        platenumber="" />
+    <Airline
+        Code="QG"
+        Name="Citilink Indonesia"
+        platenumber="" />
+    <Airline
+        Code="GU"
+        Name="Gulisano airways"
+        platenumber="" />
+
+</Airlines>
