@@ -2,14 +2,14 @@
 <resources>
     
     <string name="api_KEY_NAME">api_key</string>
-    <string name="api_KEY_VALUE">4b20e1947194bead13795d4f9db34408</string>
+    <string name="api_KEY_VALUE">SITA iBEACON REGISTRY KEY</string>
     <integer name="api_TIME_OUT">15000</integer>
     
     
-    <string name="AirportURL">https://atibeacon.api.aero/atibeacon/airports/4/</string>
-    <string name="beaconsUrl">https://atibeacon.api.aero/atibeacon/beacons/1</string>
-    <string name="BeaconDetails">https://atibeacon.api.aero/atibeacon/beacons/1/</string>
-    <string name="appId">1a01dea1</string>
+    <string name="AirportURL">https://cube.api.aero/atibeacon/airports/4/</string>
+    <string name="beaconsUrl">https://cube.api.aero/atibeacon/beacons/1</string>
+    <string name="BeaconDetails">https://cube.api.aero/atibeacon/beacons/1/</string>
+    <string name="appId">SITA iBEACON REGISTRY APP ID</string>
     <string name="RanginInterval">1</string>
     
     
