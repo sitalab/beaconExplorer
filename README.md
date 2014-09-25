@@ -20,7 +20,7 @@ FAQ
   - Currently access is still limted to airlines, airports and ground handlers. The plan is to open access to general 3rd parties in the future. 
 
 - How do I build the project
-  - To build the project, check out the code and import the .project into Eclipse. It is assumed that you have Android SDK with [Google Glass GDK](https://developers.google.com/glass/) already installed. Update beaconExplorer/res/values/api_statics.xml add your own API Key and App Id values. 
+  - To build the project, check out the code (don't forget to use the --recursive option) and import the .project into Eclipse. It is assumed that you have Android SDK with [Google Glass GDK](https://developers.google.com/glass/) already installed. Update beaconExplorer/res/values/api_statics.xml add your own API Key and App Id values. 
 
 
 Contributors
