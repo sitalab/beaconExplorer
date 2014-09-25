@@ -63,7 +63,42 @@ import android.util.Log;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-
+/**
+ * HTTP Request class
+ * 
+ * You can use this class and distribute it as long as you give proper credit
+ * and place and leave this notice intact :). Check my blog for updated
+ * version(s) of this class (http://moazzam-khan.com)
+ * 
+ * Usage Examples:
+ * 
+ * Get Request -------------------------------- HttpData data =
+ * HttpRequest.get("http://example.com/index.php?user=hello");
+ * Utils.SystemOut(data.content);
+ * 
+ * Post Request -------------------------------- HttpData data =
+ * HttpRequest.post("http://xyz.com", "var1=val&var2=val2");
+ * Utils.SystemOut(data.content); Enumeration<String> keys = dat.cookies.keys();
+ * // cookies while (keys.hasMoreElements()) {
+ * Utils.SystemOut(keys.nextElement() + " = " +
+ * data.cookies.get(keys.nextElement() + "\r\n"); } Enumeration<String> keys =
+ * dat.headers.keys(); // headers while (keys.hasMoreElements()) {
+ * Utils.SystemOut(keys.nextElement() + " = " +
+ * data.headers.get(keys.nextElement() + "\r\n"); }
+ * 
+ * Upload a file -------------------------------- ArrayList<File> files = new
+ * ArrayList(); files.add(new File("/etc/someFile")); files.add(new
+ * File("/home/user/anotherFile"));
+ * 
+ * Hashtable<String, String> ht = new Hashtable<String, String>();
+ * ht.put("var1", "val1");
+ * 
+ * HttpData data = HttpRequest.post("http://xyz.com", ht, files);
+ * Utils.SystemOut(data.content);
+ * 
+ * @author Moazzam Khan, Edited by: Ahmad Hariss,Shafic Hariri
+ * 
+ */
 public class HttpRequest {
 	public static void trustEveryone(String url) {
 		if (url != null && url.toLowerCase().contains("https")) {
