@@ -17,7 +17,7 @@ The first API is called on app startup. The second API is called when the user c
 FAQ
 ===
 - Can I get access to the iBeacons deployed at airports
-  - Currently access is still limted to airlines, airports and ground handlers. The plan is to open access to general 3rd parties in the future. 
+  - Currently access is still limited to airlines, airports and ground handlers. The plan is to open access to general 3rd parties in the future. 
 
 - How do I build the project
   - To build the project, check out the code (don't forget to use the --recursive option) and import the beaconExplorer and glass-progress-bar .project files into Eclipse. 
