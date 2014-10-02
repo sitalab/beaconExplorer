@@ -27,7 +27,7 @@ FAQ
 
 Contributors
 ============
-* [ahariss](https://github.com/ahariss) 
+* [ahariss](https://github.com/ahariss) / Ahmad Hariss
 * [kosullivansita](https://github.com/kosullivansita) / [Kevin O'Sullivan](http://www.sita.aero/surveys-reports/sita-lab)
 
 License
